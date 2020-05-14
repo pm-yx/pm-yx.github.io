@@ -4,39 +4,50 @@
   
     
     <entry>
-      <title>aa</title>
-      <link href="/posts/78a19d7.html"/>
-      <url>/posts/78a19d7.html</url>
+      <title>github 代码同步命令行</title>
+      <link href="/posts/a16b2754.html"/>
+      <url>/posts/a16b2754.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<ul><li><p>提交全部变更<br>git add .</p></li><li><p>新增提交备注<br>git commit -m “cc”</p></li></ul><p>注：cc本次提交代码备注</p><ul><li>推送<br>git push</li></ul>]]></content>
       
       
+      <categories>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>cc</title>
-      <link href="/posts/dbb21a79.html"/>
-      <url>/posts/dbb21a79.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Axure-1</title>
+      <title>Axure的安装</title>
       <link href="/posts/578d7aa9.html"/>
       <url>/posts/578d7aa9.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
+      <categories>
+          
+          <category> Axure 9 专栏 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Axure 9 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -113,9 +124,9 @@
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> 搭建博客 </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
