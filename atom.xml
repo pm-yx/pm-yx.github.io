@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>PMYX</title>
+  
+  <subtitle>PMYX</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://pmyx.top/"/>
+  <updated>2020-05-14T13:57:48.665Z</updated>
+  <id>http://pmyx.top/</id>
+  
+  <author>
+    <name>PMYX</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>aa</title>
+    <link href="http://pmyx.top/posts/78a19d7.html"/>
+    <id>http://pmyx.top/posts/78a19d7.html</id>
+    <published>2020-05-14T13:57:48.000Z</published>
+    <updated>2020-05-14T13:57:48.665Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>cc</title>
+    <link href="http://pmyx.top/posts/dbb21a79.html"/>
+    <id>http://pmyx.top/posts/dbb21a79.html</id>
+    <published>2020-05-14T13:52:09.000Z</published>
+    <updated>2020-05-14T13:52:09.976Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Axure-1</title>
+    <link href="http://pmyx.top/posts/578d7aa9.html"/>
+    <id>http://pmyx.top/posts/578d7aa9.html</id>
+    <published>2020-05-13T14:36:37.000Z</published>
+    <updated>2020-05-13T14:42:27.509Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>搭建博客--Hexo基础</title>
+    <link href="http://pmyx.top/posts/55752e63.html"/>
+    <id>http://pmyx.top/posts/55752e63.html</id>
+    <published>2020-05-12T15:09:25.000Z</published>
+    <updated>2020-05-12T15:24:16.295Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;搭建博客–Hexo基础&quot;&gt;&lt;a href=&quot;#搭建博客–Hexo基础&quot; class=&quot;headerlink&quot; title=&quot;搭建博客–Hexo基础&quot;&gt;&lt;/a&gt;搭建博客–Hexo基础&lt;/h1&gt;&lt;h2 id=&quot;基础代码克隆&quot;&gt;&lt;a href=&quot;#基础代码克隆&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建博客--安装基础软件</title>
+    <link href="http://pmyx.top/posts/b4e4a5e5.html"/>
+    <id>http://pmyx.top/posts/b4e4a5e5.html</id>
+    <published>2020-05-10T10:47:27.000Z</published>
+    <updated>2020-05-12T15:16:08.460Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;搭建博客–安装基础软件&quot;&gt;&lt;a href=&quot;#搭建博客–安装基础软件&quot; class=&quot;headerlink&quot; title=&quot;搭建博客–安装基础软件&quot;&gt;&lt;/a&gt;搭建博客–安装基础软件&lt;/h1&gt;&lt;h2 id=&quot;安装git：&quot;&gt;&lt;a href=&quot;#安装git：&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="git" scheme="http://pmyx.top/tags/git/"/>
+    
+      <category term="node.js" scheme="http://pmyx.top/tags/node-js/"/>
+    
+      <category term="vs code" scheme="http://pmyx.top/tags/vs-code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建博客--方案选型</title>
+    <link href="http://pmyx.top/posts/95f626fe.html"/>
+    <id>http://pmyx.top/posts/95f626fe.html</id>
+    <published>2020-05-10T08:00:00.000Z</published>
+    <updated>2020-05-12T15:16:08.460Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;搭建博客–方案选型&quot;&gt;&lt;a href=&quot;#搭建博客–方案选型&quot; class=&quot;headerlink&quot; title=&quot;搭建博客–方案选型&quot;&gt;&lt;/a&gt;搭建博客–方案选型&lt;/h1&gt;&lt;h2 id=&quot;搭博客平台的历程&quot;&gt;&lt;a href=&quot;#搭博客平台的历程&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
+    
+      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>

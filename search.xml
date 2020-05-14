@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>aa</title>
+      <link href="/posts/78a19d7.html"/>
+      <url>/posts/78a19d7.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>cc</title>
+      <link href="/posts/dbb21a79.html"/>
+      <url>/posts/dbb21a79.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Axure-1</title>
+      <link href="/posts/578d7aa9.html"/>
+      <url>/posts/578d7aa9.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建博客--Hexo基础</title>
+      <link href="/posts/55752e63.html"/>
+      <url>/posts/55752e63.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="搭建博客–Hexo基础"><a href="#搭建博客–Hexo基础" class="headerlink" title="搭建博客–Hexo基础"></a>搭建博客–Hexo基础</h1><h2 id="基础代码克隆"><a href="#基础代码克隆" class="headerlink" title="基础代码克隆"></a>基础代码克隆</h2><ul><li>创建文件夹，命名为blog（放在一个不易删除的地方）。</li><li>用VS Code 打开创建的blog文件夹。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512230956" alt="VS Code 打开文件夹"></p><ul><li>用VS Code 中选择打开新终端。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231003" alt="新终端"></p><ul><li>在终端中输入：npm install hexo-cli -g  等待加载完成。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231006" alt="加载对应代码文件"></p><ul><li>加载完成后，在终端中输入：hexo init blog   创建blog子文件夹，创建完成后，左侧目录下就会生成blog的文件夹（可能有点慢，稍微等待下）。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231009" alt="加载对应代码文件"></p><ul><li><p>然后终端中输入：cd blog 进入刚创建的目录。</p></li><li><p>再输入：npm install 等待加载完成。<br><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231012" alt="进入文件夹"></p></li><li><p>一切就绪输入：hexo server 就可在本地浏览器查看搭建的博客了（鼠标点击图中标记的地址）。</p></li></ul><blockquote><p>注：hexo server  缩写：hexo s。按住Ctrl+C可以推出本地预览。</p></blockquote><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231015" alt="生成"></p><h2 id="第一篇文章编写hexo"><a href="#第一篇文章编写hexo" class="headerlink" title="第一篇文章编写hexo"></a>第一篇文章编写hexo</h2><ul><li>编写第一篇博客，在终端中输入：hexo new “one”，系统会自动生成一篇博客。可以在如图目录下查看，并进行编辑，保存。再次执行：hexo s，在浏览器中预览。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231018" alt="one"></p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231021" alt="生成"></p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231024" alt="预览"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo踩坑笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建博客--安装基础软件</title>
+      <link href="/posts/b4e4a5e5.html"/>
+      <url>/posts/b4e4a5e5.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="搭建博客–安装基础软件"><a href="#搭建博客–安装基础软件" class="headerlink" title="搭建博客–安装基础软件"></a>搭建博客–安装基础软件</h1><h2 id="安装git："><a href="#安装git：" class="headerlink" title="安装git："></a>安装git：</h2><ul><li><p>Git（读音为/gɪt/）是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。</p></li><li><p>下载地址;<a href="https://git-scm.com/download" target="_blank" rel="noopener">https://git-scm.com/download</a></p></li><li><p>其实还有更简单的办法，电脑上安装了腾讯电脑管家，可以在软件管理中进行下载。（虽然大家都在吐槽电脑管家，360等让电脑越来越卡。其实不用的时候，将自启动禁用就行，下载软件，清理缓存垃圾时打开）。</p></li></ul><blockquote><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200511205752.png" alt="电脑管家中搜索下载"></p></blockquote><h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><ul><li><p>下载地址：<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></p></li><li><p>同样可以在电脑管家中下载。</p></li></ul><blockquote><p>注：Git和Node.js是一切开始的基础，安装完成后可以在电脑中查看是否安装成功。</p><p>方法：node.js 检查方法在命令行中输入</p><p>node - v</p><p>展示效果：出现版本号为安装成功。</p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200511211421.png" alt="cmd中版本号查看"></p></blockquote><h2 id="安装-VS-code"><a href="#安装-VS-code" class="headerlink" title="安装 VS code"></a>安装 VS code</h2><ul><li>官网：<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">https://code.visualstudio.com/</a></li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200511211618.png" alt="官网截图"></p><ul><li>安装完成后，如果需要切换语言，请安装中文包的组件</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200511212559.png" alt="中文语言包"></p><blockquote><p>基础工作完成，下一节我们开始正式博客搭建</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo踩坑笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> node.js </tag>
+            
+            <tag> vs code </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建博客--方案选型</title>
+      <link href="/posts/95f626fe.html"/>
+      <url>/posts/95f626fe.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="搭建博客–方案选型"><a href="#搭建博客–方案选型" class="headerlink" title="搭建博客–方案选型"></a>搭建博客–方案选型</h1><h2 id="搭博客平台的历程"><a href="#搭博客平台的历程" class="headerlink" title="搭博客平台的历程"></a>搭博客平台的历程</h2><p>1、尝试过购买服务器（WordPress搭建）–服务器太贵，学生机时代还可以承受，后面…..。</p><p>2、Axure静态原型搭建，托管Github（访问太慢放弃）。转战对象云存储（OSS、COS），但是每次更新都需要编辑Axure原型。感觉其它页面还可以，就是博文只能跳第三方平台链接，体验不是很好。</p><p>现有的访问网址：<a href="http://sjjhyz.club" target="_blank" rel="noopener">Axure托管腾讯云COS的老官网</a></p><p>3、“潜心研究”在半天内搭建了现在的新的博客网站。<a href="http://pmyx.top/">这里是新的博客官网–PMYX</a></p><ul><li>优点：<ul><li>价格便宜，基本上每个月不到1元费用（COS的存储费用和流量费用）。</li><li>访问速度还可以，目前没有开通CDN。</li><li>编辑简单,Markdown形式，同时可以借助自己之前用语雀进行内容同步。</li></ul></li></ul><h2 id="整体方案"><a href="#整体方案" class="headerlink" title="整体方案"></a>整体方案</h2><blockquote><p>Hexo（技术栈）+Matery（博客主题）+COS（托管平台）+typora（Markdown编辑器）+picgo（图床上传工具）的静态博客白嫖方案</p></blockquote><h3 id="Hexo：快速、简洁且高效的博客框架"><a href="#Hexo：快速、简洁且高效的博客框架" class="headerlink" title="Hexo：快速、简洁且高效的博客框架"></a>Hexo：快速、简洁且高效的博客框架</h3><p>官网：<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></p><ul><li>优点：（来源官网）<ul><li><strong>超快速度：</strong>Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染。</li><li><strong>支持 Markdown：</strong>Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。</li><li><strong>一键部署：</strong>只需一条指令即可部署到 GitHub Pages, Heroku 或其他平台。</li><li><strong>插件和可扩展性：</strong>强大的 API 带来无限的可能，与数种模板引擎（EJS，Pug，Nunjucks）和工具（Babel，PostCSS，Less/Sass）轻易集成。</li></ul></li><li>自己总结一下<ul><li>使用方便、主题较多、文档相对完善(像我这种“新手”)。</li><li>插件多是真个，优秀的插件可以去参考，然后扩展功能（给有梦想的人，我就乖乖的用个主题吧，主题打包好的”真香“）。</li></ul></li></ul><h3 id="Matery：一款优秀的Hexo的博客主题"><a href="#Matery：一款优秀的Hexo的博客主题" class="headerlink" title="Matery：一款优秀的Hexo的博客主题"></a>Matery：一款优秀的Hexo的博客主题</h3><p>Github地址：<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank" rel="noopener">https://github.com/blinkfox/hexo-theme-matery</a></p><ul><li>优点就不多说了，功能比较，个人日常使用完全无压力。最重要的是主题的文档写的比较完整比较全。</li></ul><h3 id="COS：腾讯云的对象云存储"><a href="#COS：腾讯云的对象云存储" class="headerlink" title="COS：腾讯云的对象云存储"></a>COS：腾讯云的对象云存储</h3><h3 id="Typora：-一款Markdown编译器，可以结合PIcGo图床使用。"><a href="#Typora：-一款Markdown编译器，可以结合PIcGo图床使用。" class="headerlink" title="Typora： 一款Markdown编译器，可以结合PIcGo图床使用。"></a>Typora： 一款Markdown编译器，可以结合PIcGo图床使用。</h3><p>typora官网：<a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a></p><h3 id="PIcGo：一款开源图传工具，多平台支持"><a href="#PIcGo：一款开源图传工具，多平台支持" class="headerlink" title="PIcGo：一款开源图传工具，多平台支持"></a>PIcGo：一款开源图传工具，多平台支持</h3><p>Github地址：<a href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener">https://github.com/Molunerfinn/PicGo</a></p><h3 id="其他：Github（我在Github上也托管了一份），VS-Code（编译器）"><a href="#其他：Github（我在Github上也托管了一份），VS-Code（编译器）" class="headerlink" title="其他：Github（我在Github上也托管了一份），VS Code（编译器）"></a>其他：Github（我在Github上也托管了一份），VS Code（编译器）</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo踩坑笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 搭建博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
