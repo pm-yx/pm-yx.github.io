@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pmyx.top/"/>
-  <updated>2020-05-18T15:58:06.041Z</updated>
+  <updated>2020-05-20T16:43:26.108Z</updated>
   <id>http://pmyx.top/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Remix SVG图标元件库使用说明书</title>
+    <link href="http://pmyx.top/posts/b138b119.html"/>
+    <id>http://pmyx.top/posts/b138b119.html</id>
+    <published>2020-05-20T16:33:00.000Z</published>
+    <updated>2020-05-20T16:43:26.108Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;元件库导入说明&quot;&gt;&lt;a href=&quot;#元件库导入说明&quot; class=&quot;headerlink&quot; title=&quot;元件库导入说明&quot;&gt;&lt;/a&gt;元件库导入说明&lt;/h1&gt;&lt;h2 id=&quot;Axure-8系列版本说明&quot;&gt;&lt;a href=&quot;#Axure-8系列版本说明&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Axure作品" scheme="http://pmyx.top/categories/Axure%E4%BD%9C%E5%93%81/"/>
+    
+    
+      <category term="Axure 作品" scheme="http://pmyx.top/tags/Axure-%E4%BD%9C%E5%93%81/"/>
+    
+      <category term="Axure元件库" scheme="http://pmyx.top/tags/Axure%E5%85%83%E4%BB%B6%E5%BA%93/"/>
+    
+      <category term="Remix SVG图标" scheme="http://pmyx.top/tags/Remix-SVG%E5%9B%BE%E6%A0%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>博文头部部规范</title>
     <link href="http://pmyx.top/posts/f7cdad1d.html"/>
     <id>http://pmyx.top/posts/f7cdad1d.html</id>
     <published>2020-05-18T15:43:51.000Z</published>
-    <updated>2020-05-18T15:58:06.041Z</updated>
+    <updated>2020-05-18T16:06:26.353Z</updated>
     
     <summary type="html">
     
