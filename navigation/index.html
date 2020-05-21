@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="project, PMYX">
+    <meta name="keywords" content="navigation, PMYX">
     <meta name="description" content="PMYX个人博客 Axure极客 B端产品经理">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>project | PMYX</title>
+    <title>navigation | PMYX</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -304,74 +304,69 @@
     </div>
 </div>
 <style>
-    .projects-container {
+    .navigation-container {
         margin-top: -100px;
         margin-bottom: 30px;
     }
 
-    .projects-container .tag-title {
+    .navigation-container .tag-title {
         margin-bottom: 10px;
         color: #3C4858;
         font-size: 1.75rem;
         font-weight: 400;
     }
 
-    .frind-ship img {
-        border-radius: 10%;
+    .navigation-ship img {
+        border-radius: 50%;
     }
 
     /* 一下是按钮样式 */
 
-    .frind-ship {
+    .navigation-ship {
         padding: 10px 20px;
     }
 
-    .frind-ship .title {
+    .navigation-ship .title {
         display: flex;
         align-items: center;
     }
 
-    .frind-ship .title div {
+    .navigation-ship .title div {
         color: #fff;
         padding-left: 10px;
     }
 
-    .frind-ship .title img {
+    .navigation-ship .title img {
         width: 100px;
         height: 100px;
         flex-shrink: 0;
     }
 
-    .frind-ship .title h1 {
+    .navigation-ship .title h1 {
         padding-bottom: 5px;
         border-bottom: 2px solid #fff;
         position: relative;
         top:-15px;
         left: 3px;
     }
-    /*向下偏移按钮位置*/
-    .project-button {
+
+    .friend-button {
         display: flex;
         justify-content: center;
-        margin-bottom: -46px;
-    }
-    /*圆角*/
-    .project-button a {
-        border-radius: 10px;
+        margin-bottom: -27px;
     }
 
-    .project-all .tag-post {
+    .friend-button a {
+        border-radius: 40px;
+    }
+
+    .friend-all .tag-post {
         margin-bottom: 30px;
     }
 
     .button-caution {
         background-color: #FF4351;
         border-color: #FF4351;
-        color: #FFF;
-    }
-    .button-caution1 {
-        background-color: rgb(255, 180, 17);
-        border-color:rgb(255, 180, 17);
         color: #FFF;
     }
 
@@ -383,8 +378,8 @@
         text-align: center;
         line-height: 40px;
         height: 40px;
-        padding: 0px 20px  0px 20px;    /*四周填充属性*/
-        margin:  0px 20px  20px  10px;
+        padding: 0 40px;
+        margin: 0;
         display: inline-block;
         appearance: none;
         cursor: pointer;
@@ -397,7 +392,6 @@
         -webkit-transition-duration: .3s;
         transition-duration: .3s;
     }
-   
 
     .title {
         margin-bottom: 0rem !important;
@@ -499,36 +493,32 @@
 </style>
 
 <main class="content">
-    <div class="container projects-container">
+    <div class="container navigation-container">
         <div class="card">
             <div class="card-content">
                 <div class="tag-title center-align">
-                    <i class="fas fa-address-book"></i>&nbsp;&nbsp;参与项目
+                    <i class="fas fa-address-book"></i>&nbsp;&nbsp;常用导航
+                    <!-- navigation 页面栏目标题 -->
                 </div>
-                <article id="projects-link">
+                <article id="navigation-link">
                     
                     
-                    <div class="row tags-posts project-all">
+                    <div class="row tags-posts friend-all">
                         
                         
-                        <div class="col s12 m6 l4 project-div" data-aos="zoom-in-up">
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
                             <div class="card frind-card1">
-                                <div class="frind-ship">
+                                <div class="navigation-ship">
                                     <div class="title">
-                                            <img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200510174934.jpg" alt="img">                                    
                                         <div>
-                                            <h1 class="project-name">K12线下教育教师端</h1>
-                                            <p style="position: relative;top: -35px;">做一个有思想的“打字员”</p>
+                                            <h1 class="friend-name">ant.design</h1>
+                                            <p style="position: relative;top: -35px;">前端框架</p>
                                         </div>
                                     </div>
-                                    <div class="project-button">
-                                        <a href="https://free.modao.cc/app/a6feff68b981b9881cef6faf5bfb6d8fd35f2312?simulator_type=device&sticky#screen=sDBE8423F421511341026951" target="_blank"
+                                    <div class="friend-button">
+                                        <a href="https://ant.design/index-cn" target="_blank"
                                             class="button button-glow button-rounded button-caution">
-                                            项目介绍
-                                        </a>
-                                        <a href="http://sjjhyz.club/" target="_blank"
-                                            class="button button-glow button-rounded button-caution1">
-                                            项目原型
+                                            打开
                                         </a>
                                     </div>
                                 </div>
@@ -536,24 +526,299 @@
                         </div>
                         
                         
-                        <div class="col s12 m6 l4 project-div" data-aos="zoom-in-up">
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
                             <div class="card frind-card2">
-                                <div class="frind-ship">
+                                <div class="navigation-ship">
                                     <div class="title">
-                                            <img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200510174934.jpg" alt="img">                                    
                                         <div>
-                                            <h1 class="project-name">K12线下教育学生端</h1>
-                                            <p style="position: relative;top: -35px;">思想的“打字员”做一个有思想的“打字员”做一个有思想的“打字员”</p>
+                                            <h1 class="friend-name">element</h1>
+                                            <p style="position: relative;top: -35px;">前端框架</p>
                                         </div>
                                     </div>
-                                    <div class="project-button">
-                                        <a href="https://free.modao.cc/app/NrOT0dynQIcItXzKoctJhFEfilcl87H?simulator_type=device&sticky#screen=sED6C1F26E31508513916193" target="_blank"
+                                    <div class="friend-button">
+                                        <a href="https://element.eleme.cn/?tdsourcetag=s_pctim_aiomsg#/zh-CN" target="_blank"
                                             class="button button-glow button-rounded button-caution">
-                                            项目介绍
+                                            打开
                                         </a>
-                                        <a href="http://sjjhyz.club/" target="_blank"
-                                            class="button button-glow button-rounded button-caution1">
-                                            项目原型
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card3">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">Ant V</h1>
+                                            <p style="position: relative;top: -35px;">数据可视化</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://antv.gitee.io/zh" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card4">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">Echarts</h1>
+                                            <p style="position: relative;top: -35px;">百度数据可视化</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://echarts.apache.org/zh/index.html" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card5">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">Data V</h1>
+                                            <p style="position: relative;top: -35px;">大屏数据展示组件</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="http://datav-react.jiaminghi.com/" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card6">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">Three.js</h1>
+                                            <p style="position: relative;top: -35px;">前端三维</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="http://www.webgl3d.cn/" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card7">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">unDraw</h1>
+                                            <p style="position: relative;top: -35px;">免费可商用插画</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://undraw.co/illustrations" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card8">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">tinypng</h1>
+                                            <p style="position: relative;top: -35px;">图片无损压缩</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://tinypng.com/" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card9">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">Grabient</h1>
+                                            <p style="position: relative;top: -35px;">渐变色网站</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://www.grabient.com/" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card10">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">百度统计</h1>
+                                            <p style="position: relative;top: -35px;">百度统计</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://tongji.baidu.com/" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card1">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">腾讯移动统计</h1>
+                                            <p style="position: relative;top: -35px;">腾讯移动统计</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://mta.qq.com/" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card2">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">talkingdata</h1>
+                                            <p style="position: relative;top: -35px;">移动观象台</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="http://mi.talkingdata.com/" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card3">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">七麦数据</h1>
+                                            <p style="position: relative;top: -35px;">APP数据统计</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://www.qimai.cn/" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card4">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">亿欧网</h1>
+                                            <p style="position: relative;top: -35px;">行业报告</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://www.iyiou.com/" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card5">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">艾瑞网</h1>
+                                            <p style="position: relative;top: -35px;">行业报告</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="http://report.iresearch.cn/" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card6">
+                                <div class="navigation-ship">
+                                    <div class="title">
+                                        <div>
+                                            <h1 class="friend-name">Mob研究院</h1>
+                                            <p style="position: relative;top: -35px;">行业报告</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://www.mob.com/mobdata/report" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打开
                                         </a>
                                     </div>
                                 </div>
@@ -570,7 +835,6 @@
                 
             </div>
         </div>
-       
         <div class="card">
 
             
@@ -585,13 +849,12 @@
 
         </div>
     </div>
-      
 </main>
 
 <script>
     $(function () {
-        $('#projects-link').masonry({
-            itemSelector: '.project-div'
+        $('#navigation-link').masonry({
+            itemSelector: '.friend-div'
         });
     });
 </script>
