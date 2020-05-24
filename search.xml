@@ -124,8 +124,8 @@
     
     <entry>
       <title>搭建博客--Hexo基础</title>
-      <link href="/posts/5.5752e+67.html"/>
-      <url>/posts/5.5752e+67.html</url>
+      <link href="/posts/55752e63.html"/>
+      <url>/posts/55752e63.html</url>
       
         <content type="html"><![CDATA[<h1 id="搭建博客–Hexo基础"><a href="#搭建博客–Hexo基础" class="headerlink" title="搭建博客–Hexo基础"></a>搭建博客–Hexo基础</h1><h2 id="基础代码克隆"><a href="#基础代码克隆" class="headerlink" title="基础代码克隆"></a>基础代码克隆</h2><ul><li>创建文件夹，命名为blog（放在一个不易删除的地方）。</li><li>用VS Code 打开创建的blog文件夹。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512230956" alt="VS Code 打开文件夹"></p><ul><li>用VS Code 中选择打开新终端。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231003" alt="新终端"></p><ul><li>在终端中输入：npm install hexo-cli -g  等待加载完成。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231006" alt="加载对应代码文件"></p><ul><li>加载完成后，在终端中输入：hexo init blog   创建blog子文件夹，创建完成后，左侧目录下就会生成blog的文件夹（可能有点慢，稍微等待下）。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231009" alt="加载对应代码文件"></p><ul><li><p>然后终端中输入：cd blog 进入刚创建的目录。</p></li><li><p>再输入：npm install 等待加载完成。<br><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231012" alt="进入文件夹"></p></li><li><p>一切就绪输入：hexo server 就可在本地浏览器查看搭建的博客了（鼠标点击图中标记的地址）。</p></li></ul><blockquote><p>注：hexo server  缩写：hexo s。按住Ctrl+C可以推出本地预览。</p></blockquote><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231015" alt="生成"></p><h2 id="第一篇文章编写hexo"><a href="#第一篇文章编写hexo" class="headerlink" title="第一篇文章编写hexo"></a>第一篇文章编写hexo</h2><ul><li>编写第一篇博客，在终端中输入：hexo new “one”，系统会自动生成一篇博客。可以在如图目录下查看，并进行编辑，保存。再次执行：hexo s，在浏览器中预览。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231018" alt="one"></p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231021" alt="生成"></p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231024" alt="预览"></p>]]></content>
       
