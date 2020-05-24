@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>日常的踩坑指南</title>
+      <link href="/posts/207dfa09.html"/>
+      <url>/posts/207dfa09.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="日常的踩坑指南"><a href="#日常的踩坑指南" class="headerlink" title="日常的踩坑指南"></a>日常的踩坑指南</h1><h2 id="链接的坑"><a href="#链接的坑" class="headerlink" title="链接的坑"></a>链接的坑</h2><p>在做项目模块中，添加了项目介绍，但是项目介绍的跳转始终出现无法跳转。</p><ul><li>报错问题：链接中出现  /%20</li><li>问题查找：/%20 代表空格符</li><li>问题解决：查找对应的数据文件projects.json。修改查看地址是否存在链接前方空格。</li><li>解决结果：的确在第一个链接的地址中存在空格，删除完空格，恢复正常。<br><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200524150259.png" alt="报错信息"></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo踩坑笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 搭建博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>项目介绍通用</title>
       <link href="/posts/47179a24.html"/>
       <url>/posts/47179a24.html</url>
       
-        <content type="html"><![CDATA[<p>项目文档暂未公开</p>]]></content>
+        <content type="html"><![CDATA[<p>项目文档暂未公开<br>项目相关文档还在脱敏整理中。</p>]]></content>
       
       
       

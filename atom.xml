@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pmyx.top/"/>
-  <updated>2020-05-24T06:14:04.677Z</updated>
+  <updated>2020-05-24T07:11:13.285Z</updated>
   <id>http://pmyx.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>项目介绍通用</title>
-    <link href="http://pmyx.top/posts/47179a24.html"/>
-    <id>http://pmyx.top/posts/47179a24.html</id>
-    <published>2020-05-24T06:12:59.000Z</published>
-    <updated>2020-05-24T06:14:04.677Z</updated>
+    <title>日常的踩坑指南</title>
+    <link href="http://pmyx.top/posts/207dfa09.html"/>
+    <id>http://pmyx.top/posts/207dfa09.html</id>
+    <published>2020-05-24T07:02:07.000Z</published>
+    <updated>2020-05-24T07:11:13.285Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,36 @@
       
         
         
-          &lt;p&gt;项目文档暂未公开&lt;/p&gt;
+          &lt;h1 id=&quot;日常的踩坑指南&quot;&gt;&lt;a href=&quot;#日常的踩坑指南&quot; class=&quot;headerlink&quot; title=&quot;日常的踩坑指南&quot;&gt;&lt;/a&gt;日常的踩坑指南&lt;/h1&gt;&lt;h2 id=&quot;链接的坑&quot;&gt;&lt;a href=&quot;#链接的坑&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
+    
+      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目介绍通用</title>
+    <link href="http://pmyx.top/posts/47179a24.html"/>
+    <id>http://pmyx.top/posts/47179a24.html</id>
+    <published>2020-05-24T06:12:59.000Z</published>
+    <updated>2020-05-24T07:12:00.991Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;项目文档暂未公开&lt;br&gt;项目相关文档还在脱敏整理中。&lt;/p&gt;
 
         
       
