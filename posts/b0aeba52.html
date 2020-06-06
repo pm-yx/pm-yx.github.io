@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="日常的踩坑指南, PMYX">
+    <meta name="keywords" content="Axure、中继器、九宫格图片">
     <meta name="description" content="PMYX个人博客 Axure极客 B端产品经理">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>日常的踩坑指南 | PMYX</title>
+    <title>【中继器系列教程】第四步：九宫格图片 | PMYX</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -268,12 +268,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">日常的踩坑指南</h1>
+                    <h1 class="description center-align post-title">【中继器系列教程】第四步：九宫格图片</h1>
                 </div>
             </div>
         </div>
@@ -390,12 +390,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
+                            <a href="/tags/Axure/">
+                                <span class="chip bg-color">Axure</span>
                             </a>
                         
-                            <a href="/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
-                                <span class="chip bg-color">搭建博客</span>
+                            <a href="/tags/%E4%B8%AD%E7%BB%A7%E5%99%A8/">
+                                <span class="chip bg-color">中继器</span>
                             </a>
                         
                     </div>
@@ -406,8 +406,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/" class="post-category">
-                                Hexo踩坑笔记
+                            <a href="/categories/%E4%B8%AD%E7%BB%A7%E5%99%A8%E6%95%99%E7%A8%8B/" class="post-category">
+                                中继器教程
                             </a>
                         
                     </div>
@@ -419,28 +419,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-06-06
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-06-06
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    122
+                    795
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -455,13 +455,45 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="日常的踩坑指南"><a href="#日常的踩坑指南" class="headerlink" title="日常的踩坑指南"></a>日常的踩坑指南</h1><h2 id="链接的坑"><a href="#链接的坑" class="headerlink" title="链接的坑"></a>链接的坑</h2><p>在做项目模块中，添加了项目介绍，但是项目介绍的跳转始终出现无法跳转。</p>
-<ul>
-<li>报错问题：链接中出现  /%20</li>
-<li>问题查找：/%20 代表空格符</li>
-<li>问题解决：查找对应的数据文件projects.json。修改查看地址是否存在链接前方空格。</li>
-<li>解决结果：的确在第一个链接的地址中存在空格，删除完空格，恢复正常。<br><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200524150259.png" alt="报错信息"></li>
+                <h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ul>
+<li>电脑：mac和win都可以（案例以win系统为例，mac类似）。</li>
+<li>软件：Axure 9 系列（Axure 8类似）。</li>
+<li>熟练程度：中级（元件使用，函数调用）。</li>
+<li>相关使用元件：矩形、文本、SVG（形状）图标、动态面板、图片、中继器。</li>
 </ul>
+<h3 id="演示动图"><a href="#演示动图" class="headerlink" title="演示动图"></a>演示动图</h3><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200606130911.gif" alt="演示Gif图"></p>
+<h3 id="原型元件组成展示"><a href="#原型元件组成展示" class="headerlink" title="原型元件组成展示"></a>原型元件组成展示</h3><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200606130925.png" alt="元件组成部分截图"></p>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h3 id="正文（制作过程）"><a href="#正文（制作过程）" class="headerlink" title="正文（制作过程）"></a>正文（制作过程）</h3><h4 id="制作思路"><a href="#制作思路" class="headerlink" title="制作思路"></a>制作思路</h4><p>整个发布动态的九宫格图片由两个页面组成，在每个页面中各自存在一个中继器，进行数据的存储。通过中继器的函数进行数据的传递，达到选中展示的效果。</p>
+<p>注：由于中继器函数需要在同一页面中继器中使用，所以需要将两个页面放置于同一画布。通过显示隐藏的交互达到切换的效果。</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200606130933.png" alt="组成说明.png"></p>
+<h4 id="简单原型"><a href="#简单原型" class="headerlink" title="简单原型"></a>简单原型</h4><p>在整个交互逻辑中，最重要的一步就是中继器之间的交互传值。下面详细介绍之间的交互逻辑。</p>
+<p>第一步：创建两个中继器。（展示中继器：用于后期九宫格的展示。选项中继器：模拟手机图片库）。</p>
+<p>第二步：修改中继器内部内容为图片元件对应命名为展示图片、选项图片。</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200606130955.png" alt="简单原型"></p>
+<p>第三步：给选项中继器进行图片配置。</p>
+<p>①配置交互事件，每项加载时设置选项图片为中继器中导入的对应图片。</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200606130957.png" alt="配置交互事件"></p>
+<p>②进行中继器图片的导入(在中继器对应数据栏右键选择导入图片选项）。导入完成后，可以看到对应的中继器中已经加载对应的图片。</p>
+<p>注：为了界面展示美观，图片使用应该是相同等比的图片。</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200606131018.png" alt="图片导入"></p>
+<p>第四步：设置选项中继器的交互。通过点击选项中继器，进行对应图片传递给展示中继器。</p>
+<p>①：配置图片单击交互事件，添加展示中继器行。</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200606131052.png" alt=""></p>
+<p>②：点击添加行，配置对应数据。（注意：只需要添加一行）</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200606131055.png" alt=""></p>
+<p>③：配置参数，选择当前中继器的参数。</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200606131058.png" alt=""></p>
+<p>④：点击预览，查看对应效果。</p>
+<p>注：</p>
+<p>1、只能通过预览查看对应效果。</p>
+<p>2、如果展示图片有三张没有加载出来，就是因为没有在预览前清空预览中继器。</p>
+<p>⑤：此时已经完成了整个的核心逻辑。下面部分简单讲述下后续细节优化的思路，有不太清楚的小伙伴可以在文章下留言，或关注公众号获取源文件。</p>
+<h4 id="细节优化"><a href="#细节优化" class="headerlink" title="细节优化"></a>细节优化</h4><h5 id="如何设置展示中继器的加号"><a href="#如何设置展示中继器的加号" class="headerlink" title="如何设置展示中继器的加号"></a>如何设置展示中继器的加号</h5><p>思路：设置一张加号的图片，通过判断其中继器数据来控制期其隐藏。</p>
+<h5 id="如何设置图片超过9张的数字"><a href="#如何设置图片超过9张的数字" class="headerlink" title="如何设置图片超过9张的数字"></a>如何设置图片超过9张的数字</h5><p>思路：首先设置文本，当展示中继器的数据大于9条时，通过展示中继器条数-9的差值</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200606131108.png" alt="超过9张隐藏"></p>
+<h3 id="如何设置一张图片、两张图片展示效果"><a href="#如何设置一张图片、两张图片展示效果" class="headerlink" title="如何设置一张图片、两张图片展示效果"></a>如何设置一张图片、两张图片展示效果</h3><p>思路：同样获取中继器的数据，根据数据，改变原有的内部图片的尺寸。</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200606131207.png" alt="配置不同图片的展示效果"></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>主要是中继器的联动赋值。</p>
 
             </div>
             <hr/>
@@ -487,7 +519,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://pmyx.top/posts/207dfa09.html">http://pmyx.top/posts/207dfa09.html</a>
+                    <a href="http://pmyx.top/posts/b0aeba52.html">http://pmyx.top/posts/b0aeba52.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -525,12 +557,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
+                                <a href="/tags/Axure/">
+                                    <span class="chip bg-color">Axure</span>
                                 </a>
                             
-                                <a href="/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
-                                    <span class="chip bg-color">搭建博客</span>
+                                <a href="/tags/%E4%B8%AD%E7%BB%A7%E5%99%A8/">
+                                    <span class="chip bg-color">中继器</span>
                                 </a>
                             
                         </div>
@@ -569,29 +601,84 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/posts/853f2960.html">
+                <a href="/posts/b0aeba52.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="【中继器系列教程】第一步：增、删、改、查的基础操作">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="【中继器系列教程】第四步：九宫格图片">
                         
-                        <span class="card-title">【中继器系列教程】第一步：增、删、改、查的基础操作</span>
+                        <span class="card-title">【中继器系列教程】第四步：九宫格图片</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            中继器增、删、改、查
+                            九宫格图片发布
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-05
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-06
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E4%B8%AD%E7%BB%A7%E5%99%A8%E6%95%99%E7%A8%8B/" class="post-category">
+                                    中继器教程
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Axure/">
+                        <span class="chip bg-color">Axure</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%B8%AD%E7%BB%A7%E5%99%A8/">
+                        <span class="chip bg-color">中继器</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/posts/56f4db21.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="【中继器系列教程】第三步：时间函数搭配中继器倒计时组件">
+                        
+                        <span class="card-title">【中继器系列教程】第三步：时间函数搭配中继器倒计时组件</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            中继器 + 时间函数 = 时间组件
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-05
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -615,49 +702,8 @@
                         <span class="chip bg-color">中继器</span>
                     </a>
                     
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/posts/47179a24.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="项目介绍通用">
-                        
-                        <span class="card-title">项目介绍通用</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            暂未公开
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            PMYX
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E9%A1%B9%E7%9B%AE/">
-                        <span class="chip bg-color">项目</span>
+                    <a href="/tags/%E6%97%B6%E9%97%B4%E7%BB%84%E4%BB%B6/">
+                        <span class="chip bg-color">时间组件</span>
                     </a>
                     
                 </div>
