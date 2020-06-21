@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pmyx.top/"/>
-  <updated>2020-06-06T05:12:15.663Z</updated>
+  <updated>2020-06-21T16:06:16.664Z</updated>
   <id>http://pmyx.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0-1的应用APP Store上架的故事</title>
+    <link href="http://pmyx.top/posts/87bea7cf.html"/>
+    <id>http://pmyx.top/posts/87bea7cf.html</id>
+    <published>2020-06-21T15:15:31.000Z</published>
+    <updated>2020-06-21T16:06:16.664Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;上架前准备&quot;&gt;&lt;a href=&quot;#上架前准备&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="0-1" scheme="http://pmyx.top/categories/0-1/"/>
+    
+    
+      <category term="产品发布" scheme="http://pmyx.top/tags/%E4%BA%A7%E5%93%81%E5%8F%91%E5%B8%83/"/>
+    
+      <category term="APP Store上架" scheme="http://pmyx.top/tags/APP-Store%E4%B8%8A%E6%9E%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>【中继器系列教程】第四步：九宫格图片</title>
@@ -167,9 +196,9 @@
       <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
+    
+      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -235,7 +264,7 @@
     <link href="http://pmyx.top/posts/f7cdad1d.html"/>
     <id>http://pmyx.top/posts/f7cdad1d.html</id>
     <published>2020-05-18T15:43:51.000Z</published>
-    <updated>2020-05-18T16:06:26.353Z</updated>
+    <updated>2020-06-21T16:06:16.662Z</updated>
     
     <summary type="html">
     
@@ -403,9 +432,9 @@
       <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
+    
+      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   

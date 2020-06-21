@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Axure、中继器、时间函数、时间组件">
+    <meta name="keywords" content="APP Store上架">
     <meta name="description" content="PMYX个人博客 Axure极客 B端产品经理">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>【中继器系列教程】第三步：时间函数搭配中继器倒计时组件 | PMYX</title>
+    <title>0-1的应用APP Store上架的故事 | PMYX</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -268,12 +268,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">【中继器系列教程】第三步：时间函数搭配中继器倒计时组件</h1>
+                    <h1 class="description center-align post-title">0-1的应用APP Store上架的故事</h1>
                 </div>
             </div>
         </div>
@@ -390,16 +390,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Axure/">
-                                <span class="chip bg-color">Axure</span>
+                            <a href="/tags/%E4%BA%A7%E5%93%81%E5%8F%91%E5%B8%83/">
+                                <span class="chip bg-color">产品发布</span>
                             </a>
                         
-                            <a href="/tags/%E4%B8%AD%E7%BB%A7%E5%99%A8/">
-                                <span class="chip bg-color">中继器</span>
-                            </a>
-                        
-                            <a href="/tags/%E6%97%B6%E9%97%B4%E7%BB%84%E4%BB%B6/">
-                                <span class="chip bg-color">时间组件</span>
+                            <a href="/tags/APP-Store%E4%B8%8A%E6%9E%B6/">
+                                <span class="chip bg-color">APP Store上架</span>
                             </a>
                         
                     </div>
@@ -410,8 +406,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E4%B8%AD%E7%BB%A7%E5%99%A8%E6%95%99%E7%A8%8B/" class="post-category">
-                                中继器教程
+                            <a href="/categories/0-1/" class="post-category">
+                                0-1
                             </a>
                         
                     </div>
@@ -423,28 +419,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-06-05
+                    2020-06-21
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-05
+                    2020-06-22
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.9k
+                    387
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    6 分
+                    1 分
                 </div>
                 
 
@@ -459,331 +455,69 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ul>
-<li>电脑：mac和win都可以（案例以win系统为例，mac类似）。</li>
-<li>软件：Axure 8 系列。</li>
-<li>熟练程度：中级（元件使用，函数调用）。</li>
-<li>相关使用元件：矩形、文本、中继器、动态面板。</li>
-</ul>
-<h3 id="演示动图"><a href="#演示动图" class="headerlink" title="演示动图"></a>演示动图</h3><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232717.gif" alt="演示Gif图"></p>
-<h3 id="原型元件组成展示"><a href="#原型元件组成展示" class="headerlink" title="原型元件组成展示"></a>原型元件组成展示</h3><blockquote>
-<p>注：本套教程共四个元件（分秒正计时、分秒倒计时、时分秒正计时、时分秒倒计时）加一个彩蛋（获取本机时间，开始24小时倒计时）。</p>
-<p>以下以分秒计时为元件组成为例截图。</p>
-</blockquote>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232721.png" alt="元件组成部分截图"></p>
-<h3 id="正文（制作过程）"><a href="#正文（制作过程）" class="headerlink" title="正文（制作过程）"></a>正文（制作过程）</h3><blockquote>
-<p>举例正计时（分、秒）与倒计时（时、分、秒）的制作方式（还有彩蛋的制作思路，哈哈）。</p>
-</blockquote>
-<h4 id="正计时（分、秒）"><a href="#正计时（分、秒）" class="headerlink" title="正计时（分、秒）"></a>正计时（分、秒）</h4><p><strong>步骤分解</strong></p>
-<ul>
-<li>创建中继器，只保留中继器数据一行。创建数据集合。</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>名称</th>
-<th>说明</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Start_min</td>
-<td>计时开始的时间分</td>
-<td>设定时间请范围00-59（请按照60进制的设置方式）</td>
-</tr>
-<tr>
-<td>Start_s</td>
-<td>计时开始的时间秒</td>
-<td>设定时间请范围00-59（请按照60进制的设置方式）</td>
-</tr>
-<tr>
-<td>End_min</td>
-<td>计时结束的时间分</td>
-<td>设定时间请范围00-59（请按照60进制的设置方式）</td>
-</tr>
-<tr>
-<td>End_s</td>
-<td>计时结束的时间秒</td>
-<td>设定时间请范围00-59（请按照60进制的设置方式）</td>
-</tr>
-</tbody></table>
-<ul>
-<li><p>根据时间的格式，创建时间显示样式。</p>
+                <h3 id="上架前准备"><a href="#上架前准备" class="headerlink" title="上架前准备"></a>上架前准备</h3><ul>
+<li><p>对应应用市场的账户（企业应用需要企业账号）</p>
+</li>
+<li><p>基础材料准备</p>
 </li>
 <li><ul>
-<li>方式一：文本（分）、文本（秒）、矩形（ ：）。</li>
+<li>名称：应用名称</li>
+<li>logo</li>
+<li>副标题</li>
+<li>隐私政策网址</li>
+</ul>
+</li>
+<li><p>APP相关材料准备</p>
+</li>
+<li><ul>
+<li>应用市场预览图</li>
 </ul>
 </li>
 </ul>
-<p>【注：优势：底层的矩形有占位空间，并且方便更改背景颜色。案例采用本方式】</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200622000331.png" alt="image.png"></p>
 <ul>
 <li><ul>
-<li>方式二：文本（分）、文本（秒）、文本（ ：）。</li>
+<li>宣传文本</li>
+<li>关键词</li>
+<li>技术支持网址</li>
+<li>营销网址</li>
+<li>描述</li>
+<li>版权</li>
 </ul>
 </li>
-</ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232731.png" alt=""></p>
-<ul>
-<li><p>创建动态面板。</p>
-</li>
-<li><ul>
-<li>作用：通过动态面板的循环进行时间计数的触发。  </li>
-</ul>
+<li><p>账号相关信息</p>
 </li>
 <li><ul>
-<li><ul>
-<li>交互事件：状态改变时。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><ul>
-<li>方式：创建两个动态面板状态（命名：一、二）。</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232738.png" alt=""></p>
-<ul>
-<li><p>创建交互逻辑</p>
-</li>
-<li><ul>
-<li>数据赋值逻辑</li>
+<li>如果涉及登录，需要提供登录的测试账号。</li>
+<li>联系人</li>
 </ul>
 </li>
 <li><ul>
 <li><ul>
-<li>进行开始时间通过中继器的<strong>每项加载时</strong>赋值给展示的文本（分）和文本（秒）。</li>
+<li>电话</li>
+<li>邮箱</li>
+<li>姓名</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232742.png" alt=""></p>
-<ul>
-<li><ul>
-<li><ul>
-<li>进行结束时间的赋值（结束状态在条件中，此处赋值为赋值给结束条件）。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232744.png" alt=""></p>
-<ul>
-<li><ul>
-<li>进行动态面板的切换触发交互。</li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
-<li>创建<strong>启动</strong>按钮。</li>
-<li>给启动按钮配置鼠标单击事件。鼠标单击时进行动态面板的向后循环(Next)，设置循环间隔1000（1000的时间长度为1秒）同时设置首个状态延时。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232747.png" alt=""></p>
-<ul>
-<li><p>进行数据变化（计时展示）的交互。</p>
-</li>
-<li><ul>
-<li>考虑边界值转换情况。当秒钟计时到59时，下一个展示为00。于是进行状态的交互时间中做状态的划分。</li>
-<li>当每次动态面板状态变化时，给秒的文本值进行加一。</li>
-<li>当秒文本值为59时，进行分的文本值加一同时，同时将秒的文本值重置为00。</li>
-<li>注：%为除以某数后取余。</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232749.png" alt=""></p>
-<ul>
-<li><p>数值优化交互。</p>
-</li>
-<li><ul>
-<li>为了符合时间的展示效果，当时间为个位数的时候进行前补充0的操作。</li>
-<li>使用的函数：①：concat(‘string’)，② ：slice(start,end)。</li>
-</ul>
-</li>
-</ul>
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><h4 id="账号校验："><a href="#账号校验：" class="headerlink" title="账号校验："></a>账号校验：</h4><p>APP涉及登录时，提交审核前确然对应账号可以进行登录操作。同时在审核期间，不要对账号进行更改密码、冻结、删除等操作。</p>
+<h4 id="支付说明："><a href="#支付说明：" class="headerlink" title="支付说明："></a>支付说明：</h4><p>如果应用涉及三方支付时（非虚拟商品），此时未接入苹果支付，需要对支付（业务逻辑进行备注说明）。</p>
 <blockquote>
-<p>①： concat(‘string’) ；<br>⽤途：将当前⽂本对象与另⼀个字符串组合。</p>
-<p>参数：string为组合在后⽅的字符串。</p>
-<p>②：slice(start,end) ；<br>⽤途：从当前⽂本对象中截取从指定起始位置 开始到终⽌位置之前的字符串。</p>
-<p>参数：start为被截取部分的 起始位置，该数值可为负数；end为被截取部分的终⽌位置， 该数值可为负数。该参数可省略，省略该参数则由起始位置 截取⾄⽂本对象结尾。</p>
+<p>如果没有说明，业务不是很明显，会被拒，被拒原因就是认为你的是虚拟商品，需接入苹果支付，苹果扣除30%。</p>
 </blockquote>
-<p><strong>倒计时（分、秒），调整正计时（分、秒）的【**</strong>进行数据变化（计时展示）的交互<strong>**】部分的交互即可。</strong></p>
-<h4 id="倒计时（时、分、秒）"><a href="#倒计时（时、分、秒）" class="headerlink" title="倒计时（时、分、秒）"></a>倒计时（时、分、秒）</h4><p><strong>步骤分解</strong></p>
+<h4 id="使用无障碍"><a href="#使用无障碍" class="headerlink" title="使用无障碍"></a>使用无障碍</h4><p>涉及到第三方的调用时，首先确认是否存在打断应用使用的过程。</p>
 <ul>
-<li>创建中继器，只保留中继器数据一行。创建数据集合。</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>名称</th>
-<th>说明</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Start_h</td>
-<td>计时开始的时间小时</td>
-<td>设定时间请范围00-23（请按照24进制的设置方式）</td>
-</tr>
-<tr>
-<td>Start_min</td>
-<td>计时开始的时间分</td>
-<td>设定时间请范围00-59（请按照60进制的设置方式）</td>
-</tr>
-<tr>
-<td>Start_s</td>
-<td>计时开始的时间秒</td>
-<td>设定时间请范围00-59（请按照60进制的设置方式）</td>
-</tr>
-<tr>
-<td>End_h</td>
-<td>计时开始的时间小时</td>
-<td>设定时间请范围00-23（请按照24进制的设置方式）</td>
-</tr>
-<tr>
-<td>End_min</td>
-<td>计时结束的时间分</td>
-<td>设定时间请范围00-59（请按照60进制的设置方式）</td>
-</tr>
-<tr>
-<td>End_s</td>
-<td>计时结束的时间秒</td>
-<td>设定时间请范围00-59（请按照60进制的设置方式）</td>
-</tr>
-</tbody></table>
-<ul>
-<li><p>根据时间的格式，创建时间显示样式。</p>
+<li><p>举例：微信登录，</p>
 </li>
 <li><ul>
-<li>备注文本：文本（时）、文本（分）、文本（秒）、矩形（BG）。</li>
-<li>展示文本：文本（H）、文本（M）、文本（S）。</li>
+<li>场景：APP涉及微信登录时，手机未安装微信登录，点击后会提示用户下载微信等，这种是会被审核拒绝的。</li>
+<li>处理方案：在APP中进行对应的逻辑判断，若用户手机无微信，隐藏对应的微信登录。</li>
 </ul>
 </li>
 </ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232753.png" alt=""></p>
-<ul>
-<li><p>创建动态面板。</p>
-</li>
-<li><ul>
-<li>作用：通过动态面板的循环进行时间计数的触发。  </li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
-<li>交互事件：状态改变时。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><ul>
-<li>方式：创建两个动态面板状态（命名：一、二）。</li>
-<li>创建中间桥（本次使用数据传值的方式进行倒计时的制作）。</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>数据传值：通过将中继器中的数据进行组合，计算出一个转换为秒的时间整数。然后通过数据的取余进行计算出展示的时、分、秒。</p>
-<p>计算公式：（小时<em>3600+分钟</em>60+秒）</p>
-<p>实际计算赋值</p>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232755.png" alt=""></p>
-</blockquote>
-<ul>
-<li><p>创建交互逻辑</p>
-</li>
-<li><ul>
-<li>数据赋值逻辑</li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
-<li>进行开始时间通过中继器的<strong>每项加载时</strong>赋值给展示的文本（H）、文本（M）和文本（S）。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232758.png" alt=""></p>
-<ul>
-<li><ul>
-<li><ul>
-<li>进行结束时间的赋值（结束状态在条件中，此处赋值为赋值给结束条件）。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232800.png" alt=""></p>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232802.png" alt=""></p>
-<ul>
-<li><ul>
-<li>进行动态面板的切换触发交互。</li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
-<li>创建<strong>启动</strong>按钮。</li>
-<li>给启动按钮配置鼠标单击事件。鼠标单击时进行动态面板的向后循环(Next)，设置循环间隔1000（1000的时间长度为1秒）同时设置首个状态延时。</li>
-<li>进行中间桥的数值计算。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232805.png" alt=""></p>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232808.png" alt=""></p>
-<ul>
-<li><p>进行数据变化（计时展示）的交互。</p>
-</li>
-<li><ul>
-<li>进行秒、分、时的反向计算。通过中间桥的数值，进行计算。</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232811.png" alt=""></p>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232813.png" alt=""></p>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232849.png" alt=""></p>
-<ul>
-<li><p>数值优化交互。</p>
-</li>
-<li><ul>
-<li>为了符合时间的展示效果，当时间为个位数的时候进行前补充0的操作。</li>
-<li>使用的函数：①：concat(‘string’)；② ：slice(start,end)；③：Math.floor(x)。 </li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>①： concat(‘string’) ：</p>
-<p>⽤途：将当前⽂本对象与另⼀个字符串组合。</p>
-<p>参数：string为组合在后⽅的字符串。</p>
-<p>②：slice(start,end) ：</p>
-<p>⽤途：从当前⽂本对象中截取从指定起始位置 开始到终⽌位置之前的字符串。</p>
-<p>参数：start为被截取部分的 起始位置，该数值可为负数；end为被截取部分的终⽌位置， 该数值可为负数。该参数可省略，省略该参数则由起始位置 截取⾄⽂本对象结尾。</p>
-<p>③：Math.floor(x)： </p>
-<p>⽤途：向下取整函数，获取⼩于或者等于指定数 值的⼤整数。</p>
-<p>参数：x为数值</p>
-</blockquote>
-<p><strong>正计时（时、分、秒），调整上述案例的【**</strong>进行数据变化（计时展示）的交互<strong>**】部分的交互即可。</strong></p>
-<h3 id="彩蛋篇-获取本机时间，开始24小时倒计时"><a href="#彩蛋篇-获取本机时间，开始24小时倒计时" class="headerlink" title="彩蛋篇:获取本机时间，开始24小时倒计时"></a>彩蛋篇:获取本机时间，开始24小时倒计时</h3><p>思路：</p>
-<ul>
-<li><p>点击触发事件后，获取电脑本地的时间。通过分别获取电脑本地的时、分、秒，进行计算剩余时间。</p>
-</li>
-<li><ul>
-<li>小时通过23减去当前的小时时间。</li>
-<li>分钟通过59减去当前的分钟时间。</li>
-<li>秒钟通过59减去当前的秒钟时间。</li>
-</ul>
-</li>
-<li><p>将剩余时间转换为中间桥的具体秒数。（参考倒计时（时、分、秒））。</p>
-</li>
-<li><p>设置结束时间为00（时、分、秒都为00）。</p>
-</li>
-</ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200605232826.png" alt=""></p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>主要函数计算、动态面板改变的交互事件、时间函数获取。</p>
+<p>常见的打断点：三方登录、三方支付等等。</p>
 
             </div>
             <hr/>
@@ -809,7 +543,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://pmyx.top/posts/56f4db21.html">http://pmyx.top/posts/56f4db21.html</a>
+                    <a href="http://pmyx.top/posts/87bea7cf.html">http://pmyx.top/posts/87bea7cf.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -847,16 +581,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Axure/">
-                                    <span class="chip bg-color">Axure</span>
+                                <a href="/tags/%E4%BA%A7%E5%93%81%E5%8F%91%E5%B8%83/">
+                                    <span class="chip bg-color">产品发布</span>
                                 </a>
                             
-                                <a href="/tags/%E4%B8%AD%E7%BB%A7%E5%99%A8/">
-                                    <span class="chip bg-color">中继器</span>
-                                </a>
-                            
-                                <a href="/tags/%E6%97%B6%E9%97%B4%E7%BB%84%E4%BB%B6/">
-                                    <span class="chip bg-color">时间组件</span>
+                                <a href="/tags/APP-Store%E4%B8%8A%E6%9E%B6/">
+                                    <span class="chip bg-color">APP Store上架</span>
                                 </a>
                             
                         </div>
@@ -895,9 +625,64 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/posts/87bea7cf.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="0-1的应用APP Store上架的故事">
+                        
+                        <span class="card-title">0-1的应用APP Store上架的故事</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            APP Store上架
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-21
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/0-1/" class="post-category">
+                                    0-1
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E4%BA%A7%E5%93%81%E5%8F%91%E5%B8%83/">
+                        <span class="chip bg-color">产品发布</span>
+                    </a>
+                    
+                    <a href="/tags/APP-Store%E4%B8%8A%E6%9E%B6/">
+                        <span class="chip bg-color">APP Store上架</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/posts/b0aeba52.html">
                     <div class="card-image">
@@ -915,61 +700,8 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-06
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E4%B8%AD%E7%BB%A7%E5%99%A8%E6%95%99%E7%A8%8B/" class="post-category">
-                                    中继器教程
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Axure/">
-                        <span class="chip bg-color">Axure</span>
-                    </a>
-                    
-                    <a href="/tags/%E4%B8%AD%E7%BB%A7%E5%99%A8/">
-                        <span class="chip bg-color">中继器</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/posts/d32ee94f.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="【中继器系列教程】第二步：高级查找（下拉菜单教程）">
-                        
-                        <span class="card-title">【中继器系列教程】第二步：高级查找（下拉菜单教程）</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            高级查找（函数indexOf()的使用）
-                        
-                    </div>
-                    <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-05
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-06
                             </span>
                         <span class="publish-author">
                             
@@ -992,10 +724,6 @@
                     
                     <a href="/tags/%E4%B8%AD%E7%BB%A7%E5%99%A8/">
                         <span class="chip bg-color">中继器</span>
-                    </a>
-                    
-                    <a href="/tags/%E4%B8%8B%E6%8B%89%E8%8F%9C%E5%8D%95/">
-                        <span class="chip bg-color">下拉菜单</span>
                     </a>
                     
                 </div>
