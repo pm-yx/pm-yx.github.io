@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>如何用模块化的思维设计元件库</title>
+      <link href="/posts/9bb01e64.html"/>
+      <url>/posts/9bb01e64.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 规范 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Axure </tag>
+            
+            <tag> 元件库 </tag>
+            
+            <tag> 经验总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>0-1的应用APP Store上架的故事</title>
       <link href="/posts/87bea7cf.html"/>
       <url>/posts/87bea7cf.html</url>
@@ -159,9 +188,9 @@
       
         <tags>
             
-            <tag> 搭建博客 </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> 搭建博客 </tag>
             
         </tags>
       
@@ -249,7 +278,7 @@
       <link href="/posts/a16b2754.html"/>
       <url>/posts/a16b2754.html</url>
       
-        <content type="html"><![CDATA[<ul><li><p>提交全部变更<br>git add .</p></li><li><p>新增提交备注<br>git commit -m “cc”</p></li></ul><p>注：cc本次提交代码备注</p><ul><li>推送<br>git push</li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li><p>提交全部变更<br>git add .</p></li><li><p>新增提交备注<br>git commit -m “cc”</p></li></ul><p>注：cc本次提交代码备注</p><ul><li><p>推送<br>git push</p></li><li><p>本地回退版本<br>git reset –hard（回退多个版本： git reset –hard ^）</p></li></ul><ul><li>仓库覆盖本地<br>git pull origin master</li></ul>]]></content>
       
       
       <categories>
@@ -365,9 +394,9 @@
       
         <tags>
             
-            <tag> 搭建博客 </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> 搭建博客 </tag>
             
         </tags>
       
