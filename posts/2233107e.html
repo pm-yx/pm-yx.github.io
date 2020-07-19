@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="搭建博客--Hexo基础, PMYX">
+    <meta name="keywords" content="Axure入门案例系列">
     <meta name="description" content="PMYX个人博客 Axure极客 B端产品经理">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>搭建博客--Hexo基础 | PMYX</title>
+    <title>【Axure入门案例系列】基础轮播图 | PMYX</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -345,12 +345,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">搭建博客--Hexo基础</h1>
+                    <h1 class="description center-align post-title">【Axure入门案例系列】基础轮播图</h1>
                 </div>
             </div>
         </div>
@@ -467,8 +467,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
+                            <a href="/tags/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/">
+                                <span class="chip bg-color">Axure入门案例系列</span>
+                            </a>
+                        
+                            <a href="/tags/%E8%BD%AE%E6%92%AD%E5%9B%BE/">
+                                <span class="chip bg-color">轮播图</span>
                             </a>
                         
                     </div>
@@ -479,8 +483,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/" class="post-category">
-                                Hexo踩坑笔记
+                            <a href="/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/" class="post-category">
+                                Axure入门案例系列
                             </a>
                         
                     </div>
@@ -492,28 +496,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-12
+                    2020-07-19
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-07-19
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    270
+                    775
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -528,41 +532,72 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="搭建博客–Hexo基础"><a href="#搭建博客–Hexo基础" class="headerlink" title="搭建博客–Hexo基础"></a>搭建博客–Hexo基础</h1><h2 id="基础代码克隆"><a href="#基础代码克隆" class="headerlink" title="基础代码克隆"></a>基础代码克隆</h2><ul>
-<li>创建文件夹，命名为blog（放在一个不易删除的地方）。</li>
-<li>用VS Code 打开创建的blog文件夹。</li>
+                <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>轮播图在手机端和PC网页官网、H5页面是比较常见的组件，今天小编带领大家一步步实现基础轮播图的效果。同时进行轮播图相关的扩展进行说明。</p>
+<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
+<li>Axure 8（或Axure 9）软件已安装。</li>
+<li>掌握基本的软件使用。</li>
 </ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512230956" alt="VS Code 打开文件夹"></p>
-<ul>
-<li>用VS Code 中选择打开新终端。</li>
+<h3 id="本教程知识点"><a href="#本教程知识点" class="headerlink" title="本教程知识点"></a>本教程知识点</h3><ul>
+<li>初级的动态面板使用。</li>
+<li>初级的页面交互事件、元件交互事件使用。</li>
+<li>图片元件、矩形等元件使用。</li>
 </ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231003" alt="新终端"></p>
-<ul>
-<li>在终端中输入：npm install hexo-cli -g  等待加载完成。</li>
+<h3 id="详细教程–基础轮播图"><a href="#详细教程–基础轮播图" class="headerlink" title="详细教程–基础轮播图"></a>详细教程–基础轮播图</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul>
+<li>自动滚动：页面载入交互</li>
+<li>点击跳转：元件单击交互</li>
 </ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231006" alt="加载对应代码文件"></p>
-<ul>
-<li>加载完成后，在终端中输入：hexo init blog   创建blog子文件夹，创建完成后，左侧目录下就会生成blog的文件夹（可能有点慢，稍微等待下）。</li>
-</ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231009" alt="加载对应代码文件"></p>
-<ul>
-<li><p>然后终端中输入：cd blog 进入刚创建的目录。</p>
-</li>
-<li><p>再输入：npm install 等待加载完成。<br><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231012" alt="进入文件夹"></p>
-</li>
-<li><p>一切就绪输入：hexo server 就可在本地浏览器查看搭建的博客了（鼠标点击图中标记的地址）。</p>
-</li>
-</ul>
-<blockquote>
-<p>注：hexo server  缩写：hexo s。按住Ctrl+C可以推出本地预览。</p>
+<h4 id="制作方式"><a href="#制作方式" class="headerlink" title="制作方式"></a>制作方式</h4><blockquote>
+<p>以三张轮播为例，使用Axure 8为例。</p>
 </blockquote>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231015" alt="生成"></p>
-<h2 id="第一篇文章编写hexo"><a href="#第一篇文章编写hexo" class="headerlink" title="第一篇文章编写hexo"></a>第一篇文章编写hexo</h2><ul>
-<li>编写第一篇博客，在终端中输入：hexo new “one”，系统会自动生成一篇博客。可以在如图目录下查看，并进行编辑，保存。再次执行：hexo s，在浏览器中预览。</li>
+<p>1、在元件库中拖入动态面板于绘图区域。</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200719225721.png" alt=""></p>
+<p>2、创建三个轮播图状态。（注意编辑时的命名）。</p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200719225725.png" alt=""></p>
+<p>3、进行轮播图内容的配置，需要在三个轮播图状态中进行单独配置每个状态的内容。</p>
+<ul>
+<li>如果轮播图是已经处理好的图片，可以将每个状态的图片直接拖入动态面板对应的状态中。</li>
+<li>如果轮播图是单独采用Axure中元件进行制作，就需要每个状态进行对应的动态面板内容编辑。</li>
 </ul>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231018" alt="one"></p>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231021" alt="生成"></p>
-<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200512231024" alt="预览"></p>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200719225728.png" alt=""></p>
+<p>4、进行轮播图交互配置</p>
+<ul>
+<li><p>轮播图动起来：在页面层级配置页面载入的动态面版的交互。</p>
+</li>
+<li><ul>
+<li>选择动态面板模式：向后循环（Next）。</li>
+<li>勾选向后循环（若未勾选向后循环，动态面板只会切换一个状态）。</li>
+<li>勾选循环间隔时间（系统默认1000毫秒（1秒=1000毫秒），日常中基本设置为3000–5000之间）。</li>
+<li>勾引首个状态延时（勾选后，第一张轮播展示对应时间后，才会进行加载第二张；若不勾选，第一张会一闪而过）。</li>
+<li>动画：缓解动态版本切换的生硬。</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li>方向：根据实际效果选择（一般常用向左滑动）；</li>
+<li>时间：动画过渡时间，同样是缓解切换的生硬效果。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200719225732.png" alt=""></p>
+<ul>
+<li><p>配置轮播图跳转：对动态面版中每个状态进行跳转设置（常用交互为鼠标单击）。</p>
+</li>
+<li><ul>
+<li>打开原型内部页面只需链接对应的页面即可。</li>
+<li>打开原型外部链接可以进行Url进行配置。</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200719225734.png" alt=""></p>
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>基础的轮播图只需要以上步骤进行配置达到交互效果。以下为经验与注意事项。</p>
+<ul>
+<li>如果用预制图片，图片请保持尺寸一致（同时保证动态面板尺寸与图片一致，这样能够达到更好的效果）。</li>
+<li>间隔时间结合所需进行设置，一般建议3s–5s之间。</li>
+<li>动态面板状态的顺序是预览是轮播开始的顺序，可以调整动态面板状态的先后，展示对应的顺序（注：面板状态的顺序可以通过拖动调整先后顺序）。</li>
+<li>注意元件和动态面板、动态面板状态的名称备注（方便后期快速检索）。</li>
+</ul>
 
             </div>
             <hr/>
@@ -588,7 +623,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://pmyx.top/posts/55752e63.html">http://pmyx.top/posts/55752e63.html</a>
+                    <a href="http://pmyx.top/posts/2233107e.html">http://pmyx.top/posts/2233107e.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -626,8 +661,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
+                                <a href="/tags/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/">
+                                    <span class="chip bg-color">Axure入门案例系列</span>
+                                </a>
+                            
+                                <a href="/tags/%E8%BD%AE%E6%92%AD%E5%9B%BE/">
+                                    <span class="chip bg-color">轮播图</span>
                                 </a>
                             
                         </div>
@@ -670,31 +709,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/posts/578d7aa9.html">
+                <a href="/posts/a24adc22.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Axure的安装">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="【Axure入门案例系列】进阶轮播图">
                         
-                        <span class="card-title">Axure的安装</span>
+                        <span class="card-title">【Axure入门案例系列】进阶轮播图</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Axure 9 入门教程 -- 软件安装
+                            【Axure入门案例系列】基础轮播图
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-13
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-19
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Axure-9-%E4%B8%93%E6%A0%8F/" class="post-category">
-                                    Axure 9 专栏
+                            <a href="/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/" class="post-category">
+                                    Axure入门案例系列
                                 </a>
                             
                             
@@ -704,8 +743,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Axure-9/">
-                        <span class="chip bg-color">Axure 9</span>
+                    <a href="/tags/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/">
+                        <span class="chip bg-color">Axure入门案例系列</span>
+                    </a>
+                    
+                    <a href="/tags/%E8%BD%AE%E6%92%AD%E5%9B%BE/">
+                        <span class="chip bg-color">轮播图</span>
                     </a>
                     
                 </div>
@@ -719,31 +762,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/b4e4a5e5.html">
+                <a href="/posts/9bb01e64.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="搭建博客--安装基础软件">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="如何用模块化的思维设计元件库">
                         
-                        <span class="card-title">搭建博客--安装基础软件</span>
+                        <span class="card-title">如何用模块化的思维设计元件库</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Git、Node.js、VS Code下载安装
+                            如何用模块化的思维设计元件库
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-06
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/" class="post-category">
-                                    Hexo踩坑笔记
+                            <a href="/categories/%E8%A7%84%E8%8C%83/" class="post-category">
+                                    规范
                                 </a>
                             
                             
@@ -753,16 +796,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/git/">
-                        <span class="chip bg-color">git</span>
+                    <a href="/tags/Axure/">
+                        <span class="chip bg-color">Axure</span>
                     </a>
                     
-                    <a href="/tags/node-js/">
-                        <span class="chip bg-color">node.js</span>
+                    <a href="/tags/%E5%85%83%E4%BB%B6%E5%BA%93/">
+                        <span class="chip bg-color">元件库</span>
                     </a>
                     
-                    <a href="/tags/vs-code/">
-                        <span class="chip bg-color">vs code</span>
+                    <a href="/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">
+                        <span class="chip bg-color">经验总结</span>
                     </a>
                     
                 </div>
