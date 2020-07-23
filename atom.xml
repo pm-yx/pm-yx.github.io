@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pmyx.top/"/>
-  <updated>2020-07-19T15:33:03.766Z</updated>
+  <updated>2020-07-23T12:12:23.248Z</updated>
   <id>http://pmyx.top/</id>
   
   <author>
@@ -17,11 +17,75 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【Axure入门案例系列】手机端滚动选择器</title>
+    <link href="http://pmyx.top/posts/e5f548c6.html"/>
+    <id>http://pmyx.top/posts/e5f548c6.html</id>
+    <published>2020-07-23T11:59:49.000Z</published>
+    <updated>2020-07-23T12:12:23.248Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;滑动选择器在手机端是一个比较常见的组件，主要用于多数据情况下的选择。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Axure入门案例系列" scheme="http://pmyx.top/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="手机常用组件" scheme="http://pmyx.top/tags/%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Axure入门案例系列】上下滚动切换案例</title>
+    <link href="http://pmyx.top/posts/5793d7f2.html"/>
+    <id>http://pmyx.top/posts/5793d7f2.html</id>
+    <published>2020-07-23T11:58:59.000Z</published>
+    <updated>2020-07-23T12:09:09.973Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;上下滚动切换是APP中常见的交互之一，通过动态的交互，能够更好的引导用户的视觉。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Axure入门案例系列" scheme="http://pmyx.top/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="手机常用组件" scheme="http://pmyx.top/tags/%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Axure入门案例系列】进阶轮播图</title>
     <link href="http://pmyx.top/posts/a24adc22.html"/>
     <id>http://pmyx.top/posts/a24adc22.html</id>
     <published>2020-07-19T14:55:18.000Z</published>
-    <updated>2020-07-19T15:33:03.766Z</updated>
+    <updated>2020-07-23T12:04:57.696Z</updated>
     
     <summary type="html">
     
@@ -42,8 +106,6 @@
       <category term="Axure入门案例系列" scheme="http://pmyx.top/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
     
     
-      <category term="Axure入门案例系列" scheme="http://pmyx.top/tags/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
-    
       <category term="轮播图" scheme="http://pmyx.top/tags/%E8%BD%AE%E6%92%AD%E5%9B%BE/"/>
     
   </entry>
@@ -53,7 +115,7 @@
     <link href="http://pmyx.top/posts/2233107e.html"/>
     <id>http://pmyx.top/posts/2233107e.html</id>
     <published>2020-07-19T14:50:18.000Z</published>
-    <updated>2020-07-19T15:05:27.227Z</updated>
+    <updated>2020-07-23T12:04:50.770Z</updated>
     
     <summary type="html">
     
@@ -70,8 +132,6 @@
     
       <category term="Axure入门案例系列" scheme="http://pmyx.top/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
     
-    
-      <category term="Axure入门案例系列" scheme="http://pmyx.top/tags/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
     
       <category term="轮播图" scheme="http://pmyx.top/tags/%E8%BD%AE%E6%92%AD%E5%9B%BE/"/>
     
@@ -280,9 +340,9 @@
       <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
+    
+      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -516,9 +576,9 @@
       <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
+    
+      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   

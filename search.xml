@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>【Axure入门案例系列】手机端滚动选择器</title>
+      <link href="/posts/e5f548c6.html"/>
+      <url>/posts/e5f548c6.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>滑动选择器在手机端是一个比较常见的组件，主要用于多数据情况下的选择。</p></blockquote><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723200957.gif" alt="手机端滚动选择器.gif"></p><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul><li>Axure 8（或Axure 9）软件已安装。</li><li>掌握基本的软件使用。</li><li>掌握基础的动态面板知识。</li></ul><h3 id="本教程知识点"><a href="#本教程知识点" class="headerlink" title="本教程知识点"></a>本教程知识点</h3><ul><li>进阶的动态面板使用。</li><li>基础函数应用。</li><li>基础中继器应用。</li></ul><h3 id="详细教程–手机端滚动选择器"><a href="#详细教程–手机端滚动选择器" class="headerlink" title="详细教程–手机端滚动选择器"></a>详细教程–手机端滚动选择器</h3><blockquote><p>本文以基础的单一选择为例（多选择可以将滑动区域、数据集模块进行复制，调整滑动区域、数据集宽度即可）。</p></blockquote><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><p>鼠标拖动滑轮进行数据选择，滑动结束后，选中数据居中。</p><h4 id="制作方式"><a href="#制作方式" class="headerlink" title="制作方式"></a>制作方式</h4><p>1、制作基础的静态模块（注意元件命名，本案例涉及局部变量关联元件，元件命名有利于查找对应元件）。</p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201000.png" alt=" "></p><p>2、制作上遮盖、选中、下遮盖。</p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201002.png" alt=" "></p><ul><li>上遮盖、下遮盖制作了一个模糊的效果，实际制作为对应的矩形，填充渐变色（#FFFFFF（50%）–#FFFFFF（100%）），注意设置对应的角度，下遮盖为-90°，上遮盖为90°。（图以上遮盖为例，选中渐变左侧。）</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201004.png" alt=" "></p><ul><li>选中效果：设置选中为对应的纯色矩形即可。（设置颜色主要是与背景有所区分，颜色可选APP主色或其它与背景有对比度的颜色）。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201006.png" alt=" "></p><p>3、制作数据集数据（中继器基础）。</p><ul><li>绘图区域拖入中继器组件</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201007.png" alt=" "></p><ul><li><p>修改中继器组件内部为文本标签元件，调整字体元件的宽（375px）、高（35px），文本标签元件字体设置对齐为左右居中，上下居中。</p></li><li><ul><li>默认中继器中是一个矩形可以手动删除后拖入文本标签元件。</li><li>技巧：矩形快速变为文本标签元件：移除矩形背景色、移除矩形描边即可。</li></ul></li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201010.png" alt=" "></p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201011.png" alt=" "></p><ul><li><p>配置中继器数据关联</p></li><li><ul><li>设置每项加载时，文字为中继器对应list列表数据。</li><li>list：中继器表头，自行修改（注：中继器表头目前不支持中文）。</li><li>list数据：自行填写（此处数据为滚动选择器中的数据，可自行进行填写，目前需大于等于7。）</li></ul></li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201014.png" alt=" "></p><ul><li>交互整体原理</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201017.png" alt=" "></p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201019.png" alt=" "></p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201021.png" alt=" "></p><ul><li><p>配置滑动交互</p></li><li><ul><li>实现原理：整个滑动交互分为两层。</li></ul></li><li><ul><li><ul><li>第一层：用户鼠标拖动滑动区域动态面板移动后，数据集动态面板跟随移动。</li><li>第二层：当滑动区域移动结束后，计算出滑动的数据距离，给数据集动态面板进行计算并进行上下对应调整（保证文案居中）。</li></ul></li></ul></li><li><ul><li>滑动区域高度计算：滑动区域比数据集区域高6个数据高度（取决于显示滑动区域多少）。</li></ul></li><li><ul><li><ul><li>所有可以在载入是计算滑块区域的高度：滑块区域高度=中继器数据个数<em>35+额外高出的高度（6</em>35）。</li></ul></li></ul></li></ul><blockquote><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201036.png" alt=" "></p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201040.png" alt=" "></p></blockquote><ul><li><p>配置滑动区域交互</p></li><li><ul><li>配置滑动区域可拖动的范围</li><li>按照滑块区域顶部为依据，设置顶部可移动区域为:[-滑块高度+245（7个滑动展示区域），0]。计算依据参考整体交互原理。</li></ul></li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201144.png" alt=" "></p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201146.png" alt=" "></p><ul><li><p>配置数据移动区域与展示</p></li><li><ul><li>设置数据集跟随滑动区域移动</li><li>计算出滑动区域移动后，数据集需要移动多少进行最后结果的调整。</li></ul></li><li><ul><li><ul><li>计算方式：滑动区域移动的距离取除35（单个数据高度）余数的整。然后进行乘35。</li></ul></li></ul></li><li><ul><li>然后将数据区域约束在对应的滚动区域中。计算依据参考整体交互原理。</li></ul></li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201149.png" alt=" "></p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201151.png" alt=" "></p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723201152.png" alt=" "></p><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><ul><li><p>过程相对较为复杂，如果只是日常使用，下载对应源文件更改数据即可。</p></li><li><p>如果自行学习注意以下几个交互</p></li><li><ul><li>注意滑动区域计算与数据集跟随计算。</li><li>可以使用文本赋值展示交互的实际值进行修改对应的逻辑。</li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Axure入门案例系列 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手机常用组件 </tag>
+            
+            <tag> 动态面板 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Axure入门案例系列】上下滚动切换案例</title>
+      <link href="/posts/5793d7f2.html"/>
+      <url>/posts/5793d7f2.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>上下滚动切换是APP中常见的交互之一，通过动态的交互，能够更好的引导用户的视觉。</p></blockquote><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723200818.gif" alt="上下滚动切换.gif"></p><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul><li>Axure 8（或Axure 9）软件已安装。</li><li>掌握基本的软件使用。</li></ul><h3 id="本教程知识点"><a href="#本教程知识点" class="headerlink" title="本教程知识点"></a>本教程知识点</h3><ul><li>初级的动态面板使用。</li><li>矩形、文字元件。</li></ul><h3 id="详细教程–上下滚动切换"><a href="#详细教程–上下滚动切换" class="headerlink" title="详细教程–上下滚动切换"></a>详细教程–上下滚动切换</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul><li>界面加载后，内容进行上下滚动交互切换。</li></ul><h4 id="制作方式"><a href="#制作方式" class="headerlink" title="制作方式"></a>制作方式</h4><blockquote><p>本文以搜索栏提示的上下滚动为示例。做两种状态的切换。</p></blockquote><p>1、制作基础切换内容（本质为动态面板）。创建两个动态面板状态。</p><p>2、制作填充动态面板状态内容。</p><ul><li>制作辅助样式。若需要交互，使用鼠标单击事件。</li></ul><p>3、制作上下滚动内容。</p><ul><li>新建动态面板。</li><li>动态面板内容填充为文字，编辑文案。</li><li>复制动态面板状态，修改复制后的文案。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723200823.png" alt=""></p><ul><li><p>设置交互事件：页面载入时</p></li><li><ul><li>设置动态面板向后循环。</li><li>设置间隔3000（1s==1000）。</li><li>设置进入、退出动画为向上滑动，时间500（这样就能实现向上切换的效果）。</li></ul></li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200723200825.png" alt=""></p><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><ul><li>动态面板其实可以实现比较多的简单交互。主要通过动画的设置。</li><li>上下滑动切换其实使用场景相对较多，例如案例的搜索栏、部分滚动的资讯等等。</li><li>可以制作一定规范的小交互封装成元件库，比如此次我采用的就是375宽的制作，下次复用直接复制至对应手机原型的位置即可。只需配置页面载入交互和文案。</li></ul><h3 id="链接地址"><a href="#链接地址" class="headerlink" title="链接地址"></a>链接地址</h3><p>案例下载地址：<a href="https://www.fuzuobiao.com/proview/5f15c17c1fcc636bd02816a6" target="_blank" rel="noopener">https://www.fuzuobiao.com/proview/5f15c17c1fcc636bd02816a6</a></p><p>案例预览地址：<a href="http://demo.fuzuobiao.com/fzb/5f15c17c1fcc636bd02816a6/start.html" target="_blank" rel="noopener">http://demo.fuzuobiao.com/fzb/5f15c17c1fcc636bd02816a6/start.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Axure入门案例系列 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手机常用组件 </tag>
+            
+            <tag> 动态面板 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【Axure入门案例系列】进阶轮播图</title>
       <link href="/posts/a24adc22.html"/>
       <url>/posts/a24adc22.html</url>
@@ -19,8 +73,6 @@
       
       
         <tags>
-            
-            <tag> Axure入门案例系列 </tag>
             
             <tag> 轮播图 </tag>
             
@@ -46,8 +98,6 @@
       
       
         <tags>
-            
-            <tag> Axure入门案例系列 </tag>
             
             <tag> 轮播图 </tag>
             
@@ -242,9 +292,9 @@
       
         <tags>
             
-            <tag> 搭建博客 </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> 搭建博客 </tag>
             
         </tags>
       
@@ -448,9 +498,9 @@
       
         <tags>
             
-            <tag> 搭建博客 </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> 搭建博客 </tag>
             
         </tags>
       
