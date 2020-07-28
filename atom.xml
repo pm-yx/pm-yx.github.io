@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pmyx.top/"/>
-  <updated>2020-07-26T15:24:06.119Z</updated>
+  <updated>2020-07-27T15:43:07.663Z</updated>
   <id>http://pmyx.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【Axure入门案例系列】音量拖动调节</title>
+    <title>【Axure入门案例系列】拖动等级调节</title>
     <link href="http://pmyx.top/posts/91dff1c4.html"/>
     <id>http://pmyx.top/posts/91dff1c4.html</id>
     <published>2020-07-25T01:46:20.000Z</published>
-    <updated>2020-07-26T15:24:06.119Z</updated>
+    <updated>2020-07-27T15:43:07.663Z</updated>
     
     <summary type="html">
     
@@ -151,7 +151,7 @@
     <link href="http://pmyx.top/posts/a24adc22.html"/>
     <id>http://pmyx.top/posts/a24adc22.html</id>
     <published>2020-07-19T14:55:18.000Z</published>
-    <updated>2020-07-23T12:04:57.696Z</updated>
+    <updated>2020-07-27T15:28:01.064Z</updated>
     
     <summary type="html">
     
@@ -406,9 +406,9 @@
       <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
+    
+      <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
