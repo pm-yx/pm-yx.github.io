@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pmyx.top/"/>
-  <updated>2020-07-27T15:43:07.663Z</updated>
+  <updated>2020-08-04T12:33:55.212Z</updated>
   <id>http://pmyx.top/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Axure入门案例系列】手机端同级页面切换</title>
+    <link href="http://pmyx.top/posts/93d164df.html"/>
+    <id>http://pmyx.top/posts/93d164df.html</id>
+    <published>2020-07-28T13:49:08.000Z</published>
+    <updated>2020-08-04T12:33:55.212Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>【Axure入门案例系列】拖动等级调节</title>
@@ -406,9 +421,9 @@
       <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
-    
       <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
     
   </entry>
   
@@ -585,37 +600,6 @@
     
     
       <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>搭建博客--安装基础软件</title>
-    <link href="http://pmyx.top/posts/b4e4a5e5.html"/>
-    <id>http://pmyx.top/posts/b4e4a5e5.html</id>
-    <published>2020-05-10T10:47:27.000Z</published>
-    <updated>2020-05-24T07:15:34.084Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;搭建博客–安装基础软件&quot;&gt;&lt;a href=&quot;#搭建博客–安装基础软件&quot; class=&quot;headerlink&quot; title=&quot;搭建博客–安装基础软件&quot;&gt;&lt;/a&gt;搭建博客–安装基础软件&lt;/h1&gt;&lt;h2 id=&quot;安装git：&quot;&gt;&lt;a href=&quot;#安装git：&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="git" scheme="http://pmyx.top/tags/git/"/>
-    
-      <category term="node.js" scheme="http://pmyx.top/tags/node-js/"/>
-    
-      <category term="vs code" scheme="http://pmyx.top/tags/vs-code/"/>
     
   </entry>
   
