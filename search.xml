@@ -4,13 +4,27 @@
   
     
     <entry>
-      <title>【Axure入门案例系列】手机端同级页面切换</title>
+      <title>【Axure入门案例系列】APP首次引导页</title>
       <link href="/posts/93d164df.html"/>
       <url>/posts/93d164df.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<blockquote><p>APP更新或用户首次安装APP引导页是必不可少的一部分。</p></blockquote><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200814003248" alt="引导页"></p><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul><li>Axure 8（或Axure 9）软件已安装。</li><li>掌握基本的软件使用。</li><li>熟悉动态面板。</li></ul><h3 id="本教程知识点"><a href="#本教程知识点" class="headerlink" title="本教程知识点"></a>本教程知识点</h3><ul><li>基础动态面板应用。</li><li>移动边界值的判断。</li></ul><h3 id="详细教程"><a href="#详细教程" class="headerlink" title="详细教程"></a>详细教程</h3><blockquote><p>本文以三页引导页为例，实现引导页的基本功能。</p></blockquote><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><p>打开APP可以通过拖动切换引导页的展示信息。同时支持跳过，最后一个页面跳转登录页面。</p><h4 id="制作方式"><a href="#制作方式" class="headerlink" title="制作方式"></a>制作方式</h4><p>1、搭建基础框架</p><ul><li>引导页、首页</li><li>引导页主要由跳过按钮、引导页内容动态面板、滑动条、立即体验按钮组成。</li><li>注意：在制作内容时，如果使用局部图片（如案例）注意排版时尽可能的保证图片在每个界面的位置统一。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200814003303" alt="整体元件组成"></p><p>2、制作左滑动效果和右滑动效果</p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200814003316" alt="滑动效果事件"></p><ul><li>由于在Axure中只有动态面板存在拖动的交互触发时间，所以此处需要采用动态面板的这一属性进行实现。</li><li>以左滑为例（动态面板的向左拖动结束交互事件）。</li><li>设置滑动结束后的切换面板状态为下一个即可。</li><li>设置动画为向左滑动，且为500毫秒。这样可以有一个半秒钟的滑动效果。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200814003325" alt="滑动动态面板切换"></p><p>3、制作底部滑动条的效果（以左滑为例）</p><ul><li>原理：每切换一个引导页，滑动条跟随移动固定距离。且左滑动至最后一张再滑动不在向左移动，向右滑动至第一张不在向右移动</li><li>根据原理，可设置每次左滑动移动滑轴50px。同时设置左侧边界可移动区域小于188px。</li></ul><blockquote><p>移动50px原理：由于滑轴的长度为为100px、滑杆的长度为200px。整个滑轴可移动的范围为100px，三个页面移动两次，每次移动50px。</p><p>左侧小于188px原理：滑轴初始状态（未滑动前）的X左侧坐标为88px，移动两次后为188px。为了防止移动超过，设置限制为188px。</p></blockquote><ul><li>右滑也是基于同样的原理。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200814003334" alt="滑轴移动计算"></p><p>4、制作立即体验按钮和滑轴进度的切换展示。</p><ul><li>在第三个引导页后两个中，存在隐藏（显示）滑动条显示（隐藏）立即体验按钮的交互。这里可以采用动态面板的状态改变时的交互事件。</li></ul><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200814003516" alt="处理立即体验按钮展示"></p><ul><li>当添加特定触发条件。切换对应的事件。</li><li>状态改变时，动态面板状态为引导页三，隐藏滑动条，等待200毫秒，显示立即体验。</li><li>等待100毫秒，是为了有一个视觉上的展示显示效果。</li><li>状态改变时，动态面板状态为引导页二，隐藏立即体验，显示滑动条。</li><li>注：一定要处理好显示隐藏的顺序，Axure本质上是按照顺序事件的先后顺序进行处理，不同的顺序处理的顺序不同，展示的效果也不同。</li></ul><p>5、其他细节处理。</p><ul><li>跳过： <ul><li>点击事件：直接打开首页即可。</li><li>鼠标按下事件：设置点击跳过事件为主色，鼠标按下点击时触发器点击效果。</li></ul></li><li>立即体验：<ul><li>点击事件：直接打开首页即可。</li></ul></li></ul><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><ul><li>灵活的应用不同元件的交互事件。</li><li>注意交互的先后顺序。</li><li>注意元件的命名。</li></ul><h3 id="链接地址"><a href="#链接地址" class="headerlink" title="链接地址"></a>链接地址</h3><p>案例下载地址：<a href="https://www.fuzuobiao.com/proview/5eef6dd4a87a045d5228a5fa" target="_blank" rel="noopener">https://www.fuzuobiao.com/proview/5eef6dd4a87a045d5228a5fa</a><br>案例预览地址：<a href="http://demo.fuzuobiao.com/fzb/5eef6dd4a87a045d5228a5fa/start.html" target="_blank" rel="noopener">http://demo.fuzuobiao.com/fzb/5eef6dd4a87a045d5228a5fa/start.html</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> Axure入门案例系列 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 动态面板 </tag>
+            
+            <tag> 引导页 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -361,9 +375,9 @@
       
         <tags>
             
-            <tag> 搭建博客 </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> 搭建博客 </tag>
             
         </tags>
       
@@ -567,9 +581,9 @@
       
         <tags>
             
-            <tag> 搭建博客 </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> 搭建博客 </tag>
             
         </tags>
       
