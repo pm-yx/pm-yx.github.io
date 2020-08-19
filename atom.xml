@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pmyx.top/"/>
-  <updated>2020-08-13T16:36:58.001Z</updated>
+  <updated>2020-08-19T13:29:44.315Z</updated>
   <id>http://pmyx.top/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Axure入门案例系列】穿梭框案例</title>
+    <link href="http://pmyx.top/posts/ad01d454.html"/>
+    <id>http://pmyx.top/posts/ad01d454.html</id>
+    <published>2020-08-19T13:14:17.318Z</published>
+    <updated>2020-08-19T13:29:44.315Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;穿梭框组件是前端框架中常见的一种数据选择方式，可以动态可视化的展示数据的归属。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Axure入门案例系列" scheme="http://pmyx.top/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="中继器" scheme="http://pmyx.top/tags/%E4%B8%AD%E7%BB%A7%E5%99%A8/"/>
+    
+      <category term="穿梭框" scheme="http://pmyx.top/tags/%E7%A9%BF%E6%A2%AD%E6%A1%86/"/>
+    
+  </entry>
   
   <entry>
     <title>【Axure入门案例系列】APP首次引导页</title>
@@ -53,7 +85,7 @@
     <link href="http://pmyx.top/posts/91dff1c4.html"/>
     <id>http://pmyx.top/posts/91dff1c4.html</id>
     <published>2020-07-25T01:46:20.000Z</published>
-    <updated>2020-07-27T15:43:07.663Z</updated>
+    <updated>2020-08-19T13:27:41.534Z</updated>
     
     <summary type="html">
     
@@ -590,33 +622,6 @@
     
     
       <category term="Axure 9" scheme="http://pmyx.top/tags/Axure-9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>搭建博客--Hexo基础</title>
-    <link href="http://pmyx.top/posts/55752e63.html"/>
-    <id>http://pmyx.top/posts/55752e63.html</id>
-    <published>2020-05-12T15:09:25.000Z</published>
-    <updated>2020-05-24T07:18:04.715Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;搭建博客–Hexo基础&quot;&gt;&lt;a href=&quot;#搭建博客–Hexo基础&quot; class=&quot;headerlink&quot; title=&quot;搭建博客–Hexo基础&quot;&gt;&lt;/a&gt;搭建博客–Hexo基础&lt;/h1&gt;&lt;h2 id=&quot;基础代码克隆&quot;&gt;&lt;a href=&quot;#基础代码克隆&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Hexo踩坑笔记" scheme="http://pmyx.top/categories/Hexo%E8%B8%A9%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
     
   </entry>
   
