@@ -499,14 +499,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-07-16
+                    2020-08-22
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    60
+                    200
                 </div>
                 
 
@@ -542,7 +542,30 @@
 </li>
 </ul>
 <ul>
-<li>仓库覆盖本地<br>git pull origin master</li>
+<li><p>仓库覆盖本地<br>git pull origin master</p>
+</li>
+<li><p>创建本地分支<br>git branch  分支名</p>
+</li>
+<li><p>切换分支<br>git checkout  分支名<br>   master<br>   dev</p>
+</li>
+<li><p>远程分支同步<br>git push origin 分支名</p>
+</li>
+<li><p>删除远程分支<br>git push origin：develop</p>
+</li>
+<li><p>远程分支合并至主分支</p>
+<ul>
+<li>git branch -a      #先查看下当前的本地和远程分支</li>
+<li>git checkout  dev           # 切换至文件存在的分支(进行相关文件同步等)<ul>
+<li>git add .</li>
+<li>git commit -m “11”</li>
+<li>git push origin dev</li>
+</ul>
+</li>
+<li>git checkout master  切换主分支</li>
+<li>git merge my_dev     同步完成后，切换至主分支，执行代码合并</li>
+<li>git push origin master    推送主分支</li>
+</ul>
+</li>
 </ul>
 
             </div>
@@ -892,7 +915,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">15.3k</span>&nbsp;字
+                class="white-color">15.4k</span>&nbsp;字
             
             
             
