@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pmyx.top/"/>
-  <updated>2020-08-29T07:00:51.905Z</updated>
+  <updated>2020-08-29T07:10:46.185Z</updated>
   <id>http://pmyx.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://pmyx.top/posts/3bbfb648.html"/>
     <id>http://pmyx.top/posts/3bbfb648.html</id>
     <published>2020-08-29T06:55:51.000Z</published>
-    <updated>2020-08-29T07:00:51.905Z</updated>
+    <updated>2020-08-29T07:10:46.185Z</updated>
     
     <summary type="html">
     
@@ -106,9 +106,9 @@
       <category term="Axure入门案例系列" scheme="http://pmyx.top/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
     
     
-      <category term="引导页" scheme="http://pmyx.top/tags/%E5%BC%95%E5%AF%BC%E9%A1%B5/"/>
-    
       <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
+    
+      <category term="引导页" scheme="http://pmyx.top/tags/%E5%BC%95%E5%AF%BC%E9%A1%B5/"/>
     
   </entry>
   
@@ -202,9 +202,9 @@
       <category term="Axure入门案例系列" scheme="http://pmyx.top/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
     
     
-      <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
-    
       <category term="手机常用组件" scheme="http://pmyx.top/tags/%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
     
       <category term="中继器" scheme="http://pmyx.top/tags/%E4%B8%AD%E7%BB%A7%E5%99%A8/"/>
     
@@ -236,9 +236,9 @@
       <category term="Axure入门案例系列" scheme="http://pmyx.top/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
     
     
-      <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
-    
       <category term="手机常用组件" scheme="http://pmyx.top/tags/%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
     
   </entry>
   
