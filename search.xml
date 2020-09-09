@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>【Win】常用技巧</title>
+      <link href="/posts/1375e4c7.html"/>
+      <url>/posts/1375e4c7.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="一、文件快速输出MD5码"><a href="#一、文件快速输出MD5码" class="headerlink" title="一、文件快速输出MD5码"></a>一、文件快速输出MD5码</h3><p>在通常，有的时候需要通过文件的MD5去校验两个文件是否一致。在不借助工具的情况下使用Win自带的命令行进行处理对应的文件，输出对应的MD5码</p><ul><li>文件转MD5码<br>命令行：<blockquote><p>certutil -hashfile D:\file.txt  MD5 </p></blockquote></li></ul><p><strong>替换参数</strong><br>D:\file.txt:替换为文件的详细地址<br>注：需要在Win命令行下进行（win+R  –&gt;  cmd)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 常用技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 常用技巧 </tag>
+            
+            <tag> Win </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Excle】常用技巧</title>
+      <link href="/posts/1d3639c7.html"/>
+      <url>/posts/1d3639c7.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="一、时间戳转换"><a href="#一、时间戳转换" class="headerlink" title="一、时间戳转换"></a>一、时间戳转换</h3><p>说明：在日常，我们经常遇到查看分析日志，由于日志中记录的时间常用为时间戳，在进行初步的数据清洗后，为了方便查看，可以通过以下方式将时间戳快速转换为具体的日期。</p><ul><li>1、秒时间戳转换<br>公式：<blockquote><p>=TEXT((A499/1+8<em>3600)/86400+70</em>365+19,”yyyy-mm-dd hh:mm:ss”)</p></blockquote></li></ul><p><strong>替换参数</strong><br>A499:替换为转换的单元格</p><hr><ul><li>2、毫秒时间戳转换<br>公式：<blockquote><p>=TEXT((A499/1000+8<em>3600)/86400+70</em>365+19,”yyyy-mm-dd hh:mm:ss”)</p></blockquote></li></ul><p><strong>替换参数</strong><br>A499:替换为转换的单元格</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 常用技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 常用技巧 </tag>
+            
+            <tag> Excle </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【Axure入门案例系列】简单音频播放动效</title>
       <link href="/posts/3bbfb648.html"/>
       <url>/posts/3bbfb648.html</url>
@@ -74,9 +128,9 @@
       
         <tags>
             
-            <tag> 动态面板 </tag>
-            
             <tag> 引导页 </tag>
+            
+            <tag> 动态面板 </tag>
             
         </tags>
       
@@ -155,9 +209,9 @@
       
         <tags>
             
-            <tag> 手机常用组件 </tag>
-            
             <tag> 动态面板 </tag>
+            
+            <tag> 手机常用组件 </tag>
             
             <tag> 中继器 </tag>
             
@@ -184,9 +238,9 @@
       
         <tags>
             
-            <tag> 手机常用组件 </tag>
-            
             <tag> 动态面板 </tag>
+            
+            <tag> 手机常用组件 </tag>
             
         </tags>
       
