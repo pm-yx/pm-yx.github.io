@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pmyx.top/"/>
-  <updated>2020-09-09T14:10:00.983Z</updated>
+  <updated>2020-09-17T01:34:44.019Z</updated>
   <id>http://pmyx.top/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>华为应用市场上架手册</title>
+    <link href="http://pmyx.top/posts/81e6abaa.html"/>
+    <id>http://pmyx.top/posts/81e6abaa.html</id>
+    <published>2020-09-14T08:30:39.000Z</published>
+    <updated>2020-09-17T01:34:44.019Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="应用上架手册" scheme="http://pmyx.top/categories/%E5%BA%94%E7%94%A8%E4%B8%8A%E6%9E%B6%E6%89%8B%E5%86%8C/"/>
+    
+    
+      <category term="应用上架手册" scheme="http://pmyx.top/tags/%E5%BA%94%E7%94%A8%E4%B8%8A%E6%9E%B6%E6%89%8B%E5%86%8C/"/>
+    
+      <category term="华为应用市场" scheme="http://pmyx.top/tags/%E5%8D%8E%E4%B8%BA%E5%BA%94%E7%94%A8%E5%B8%82%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>应用宝上架手册</title>
+    <link href="http://pmyx.top/posts/9313d339.html"/>
+    <id>http://pmyx.top/posts/9313d339.html</id>
+    <published>2020-09-14T08:28:47.000Z</published>
+    <updated>2020-09-17T01:34:44.019Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="应用上架手册" scheme="http://pmyx.top/categories/%E5%BA%94%E7%94%A8%E4%B8%8A%E6%9E%B6%E6%89%8B%E5%86%8C/"/>
+    
+    
+      <category term="应用上架手册" scheme="http://pmyx.top/tags/%E5%BA%94%E7%94%A8%E4%B8%8A%E6%9E%B6%E6%89%8B%E5%86%8C/"/>
+    
+      <category term="应用宝应用市场" scheme="http://pmyx.top/tags/%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BA%94%E7%94%A8%E5%B8%82%E5%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>【Win】常用技巧</title>
@@ -164,9 +206,9 @@
       <category term="Axure入门案例系列" scheme="http://pmyx.top/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
     
     
-      <category term="引导页" scheme="http://pmyx.top/tags/%E5%BC%95%E5%AF%BC%E9%A1%B5/"/>
-    
       <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
+    
+      <category term="引导页" scheme="http://pmyx.top/tags/%E5%BC%95%E5%AF%BC%E9%A1%B5/"/>
     
   </entry>
   
@@ -260,9 +302,9 @@
       <category term="Axure入门案例系列" scheme="http://pmyx.top/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
     
     
-      <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
-    
       <category term="手机常用组件" scheme="http://pmyx.top/tags/%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
     
       <category term="中继器" scheme="http://pmyx.top/tags/%E4%B8%AD%E7%BB%A7%E5%99%A8/"/>
     
@@ -294,9 +336,9 @@
       <category term="Axure入门案例系列" scheme="http://pmyx.top/categories/Axure%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B%E7%B3%BB%E5%88%97/"/>
     
     
-      <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
-    
       <category term="手机常用组件" scheme="http://pmyx.top/tags/%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="动态面板" scheme="http://pmyx.top/tags/%E5%8A%A8%E6%80%81%E9%9D%A2%E6%9D%BF/"/>
     
   </entry>
   
@@ -389,11 +431,11 @@
   </entry>
   
   <entry>
-    <title>0-1的应用APP Store上架的故事</title>
+    <title>APP Store上架手册</title>
     <link href="http://pmyx.top/posts/87bea7cf.html"/>
     <id>http://pmyx.top/posts/87bea7cf.html</id>
     <published>2020-06-21T15:15:31.000Z</published>
-    <updated>2020-06-21T16:08:43.475Z</updated>
+    <updated>2020-09-17T01:34:44.018Z</updated>
     
     <summary type="html">
     
@@ -408,10 +450,10 @@
     </summary>
     
     
-      <category term="0-1" scheme="http://pmyx.top/categories/0-1/"/>
+      <category term="应用上架手册" scheme="http://pmyx.top/categories/%E5%BA%94%E7%94%A8%E4%B8%8A%E6%9E%B6%E6%89%8B%E5%86%8C/"/>
     
     
-      <category term="产品发布" scheme="http://pmyx.top/tags/%E4%BA%A7%E5%93%81%E5%8F%91%E5%B8%83/"/>
+      <category term="应用上架手册" scheme="http://pmyx.top/tags/%E5%BA%94%E7%94%A8%E4%B8%8A%E6%9E%B6%E6%89%8B%E5%86%8C/"/>
     
       <category term="APP Store上架" scheme="http://pmyx.top/tags/APP-Store%E4%B8%8A%E6%9E%B6/"/>
     
@@ -571,63 +613,6 @@
       <category term="Hexo" scheme="http://pmyx.top/tags/Hexo/"/>
     
       <category term="搭建博客" scheme="http://pmyx.top/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>项目介绍通用</title>
-    <link href="http://pmyx.top/posts/47179a24.html"/>
-    <id>http://pmyx.top/posts/47179a24.html</id>
-    <published>2020-05-24T06:12:59.000Z</published>
-    <updated>2020-06-05T15:03:39.578Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;项目文档暂未公开&lt;br&gt;项目相关文档还在脱敏整理中。&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="项目" scheme="http://pmyx.top/tags/%E9%A1%B9%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Remix SVG图标元件库使用说明书</title>
-    <link href="http://pmyx.top/posts/b138b119.html"/>
-    <id>http://pmyx.top/posts/b138b119.html</id>
-    <published>2020-05-20T16:33:00.000Z</published>
-    <updated>2020-05-21T11:23:54.708Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;元件库导入说明&quot;&gt;&lt;a href=&quot;#元件库导入说明&quot; class=&quot;headerlink&quot; title=&quot;元件库导入说明&quot;&gt;&lt;/a&gt;元件库导入说明&lt;/h1&gt;&lt;h1 id=&quot;元件库导入说明-1&quot;&gt;&lt;a href=&quot;#元件库导入说明-1&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Axure作品" scheme="http://pmyx.top/categories/Axure%E4%BD%9C%E5%93%81/"/>
-    
-    
-      <category term="Axure 作品" scheme="http://pmyx.top/tags/Axure-%E4%BD%9C%E5%93%81/"/>
-    
-      <category term="Axure元件库" scheme="http://pmyx.top/tags/Axure%E5%85%83%E4%BB%B6%E5%BA%93/"/>
-    
-      <category term="Remix SVG图标" scheme="http://pmyx.top/tags/Remix-SVG%E5%9B%BE%E6%A0%87/"/>
     
   </entry>
   
