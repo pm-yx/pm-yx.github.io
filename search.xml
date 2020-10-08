@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>【Gif】AE合成透明通道GIF</title>
+      <link href="/posts/c13fa683.html"/>
+      <url>/posts/c13fa683.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="AE中如何处理合成透明通道的GIF资源"><a href="#AE中如何处理合成透明通道的GIF资源" class="headerlink" title="AE中如何处理合成透明通道的GIF资源"></a>AE中如何处理合成透明通道的GIF资源</h2><ul><li><p>情景：在一次项目处理中，需要大量的GIF贴图。由于通过PS中时间轴工具制作的GIF有卡顿失真的现象（帧率不足，高帧率有花费大量时间）。于是计划采用AE进行处理，保证帧率的同时也减少了制作时间。</p></li><li><p>遇到问题：AE中无法一次性导出对应透明通道GIF。</p></li><li><p>解决方案：使用AE处理相关动效，合成透明背景的视频格式，再通过PS进行处理导出循环的GIF。</p></li><li><p>核心节点：<br>1、合成视频需选择RGB+Alpha的透明渠道选项。</p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200928192033.png" alt=""></p><p>2、导出至PS中需要使用储存为WEB所有个格式（Ctrl+Alt+Shift+A）。设置对应格式为Gif与循环选项（永远）。</p><p><img src="https://image-1252878857.cos.ap-chengdu.myqcloud.com/image20200928192141.png" alt=""></p></li><li><p>方案特点：如果为单纯色的视频，可以通过PS的图层样式进行快速改色。</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GIF </tag>
+            
+            <tag> AE合成 </tag>
+            
+            <tag> Adobe </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【Axure入门案例系列】中继器左右交叉时间线</title>
       <link href="/posts/c7cf7c7d.html"/>
       <url>/posts/c7cf7c7d.html</url>
@@ -209,9 +238,9 @@
       
         <tags>
             
-            <tag> 引导页 </tag>
-            
             <tag> 动态面板 </tag>
+            
+            <tag> 引导页 </tag>
             
         </tags>
       
@@ -290,11 +319,11 @@
       
         <tags>
             
+            <tag> 手机常用组件 </tag>
+            
             <tag> 动态面板 </tag>
             
             <tag> 中继器 </tag>
-            
-            <tag> 手机常用组件 </tag>
             
         </tags>
       
@@ -319,9 +348,9 @@
       
         <tags>
             
-            <tag> 动态面板 </tag>
-            
             <tag> 手机常用组件 </tag>
+            
+            <tag> 动态面板 </tag>
             
         </tags>
       
